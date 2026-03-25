@@ -148,7 +148,7 @@ header{height:57px;flex-shrink:0;padding:0 32px;border-bottom:1px solid var(--bo
 .fam-levels{flex-shrink:0;display:flex;gap:6px;padding:12px 28px;border-bottom:1px solid var(--border);}
 .fam-lvl-item{flex:1;display:flex;flex-direction:column;gap:4px;}
 .fam-lvl-label{font-size:6px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--text-xlo);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-.fam-lvl-bars{display:flex;gap:2px;height:3px;}
+.fam-lvl-bars{display:flex;gap:2px;height:6px;}
 .fam-lvl-bar{flex:1;border-radius:2px;background:rgba(180,195,210,0.07);}
 .fam-lvl-num{font-size:10px;font-weight:300;color:var(--text-lo);line-height:1;}
 /* ── OBJ BODY ── */
@@ -446,10 +446,8 @@ header{height:57px;flex-shrink:0;padding:0 32px;border-bottom:1px solid var(--bo
 
 .rationale-step-bg{
   position:absolute;
-  bottom:10px;left:50%;
-  bottom:0;left:50%;
+  bottom:0;left:16px;
   font-size:220px;font-weight:700;line-height:1;
-  color:rgba(200,175,90,0.04);
   color:rgba(200,175,90,0.07);
   pointer-events:none;z-index:1;user-select:none;white-space:nowrap;
 }
@@ -493,6 +491,44 @@ header{height:57px;flex-shrink:0;padding:0 32px;border-bottom:1px solid var(--bo
 .prog-gate{padding:14px 0 14px 18px;font-size:12px;font-weight:300;line-height:1.60;color:rgba(200,175,90,0.75);border-left:1px solid rgba(200,175,90,0.10);}
 .prog-gate::before{content:'GATE';display:block;font-size:7px;font-weight:700;letter-spacing:3px;color:rgba(200,175,90,0.35);margin-bottom:5px;}
 
+
+/* ── CLIENT SCREEN ── */
+#client-screen{
+  position:fixed;inset:0;z-index:9999;
+  background:var(--bg);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:40px 32px;gap:20px;
+}
+#client-screen.hidden{display:none;}
+.client-label{font-size:9px;font-weight:300;letter-spacing:4px;color:rgba(180,195,210,0.20);text-transform:uppercase;margin-bottom:8px;}
+.client-list{display:flex;flex-direction:column;gap:5px;width:100%;max-width:400px;max-height:50vh;overflow-y:auto;scrollbar-width:thin;scrollbar-color:rgba(180,195,210,0.08) transparent;}
+.client-item{display:grid;grid-template-columns:1fr auto;align-items:center;padding:13px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:2px;cursor:pointer;transition:border-color 0.15s;}
+.client-item:hover{border-color:rgba(200,175,90,0.30);background:radial-gradient(ellipse at 0% 50%, rgba(200,175,90,0.07) 0%, transparent 70%);}
+.client-item-name{font-size:13px;font-weight:300;color:var(--text-mid);}
+.client-item-del{background:none;border:none;font-size:11px;color:rgba(200,120,120,0.25);cursor:pointer;padding:2px 8px;transition:color 0.15s;line-height:1;}
+.client-item-del:hover{color:rgba(200,120,120,0.70);}
+.client-divider{width:100%;max-width:400px;height:1px;background:rgba(180,195,210,0.07);margin:4px 0;}
+.client-new{display:flex;gap:8px;width:100%;max-width:400px;}
+.client-new-inp{flex:1;background:var(--bg-card);border:1px solid var(--border);border-radius:2px;font-family:var(--font);font-size:13px;font-weight:300;color:var(--text-mid);padding:11px 14px;outline:none;transition:border-color 0.15s;}
+.client-new-inp::placeholder{color:rgba(180,195,210,0.20);}
+.client-new-inp:focus{border-color:rgba(200,175,90,0.30);}
+.client-new-btn{background:none;border:1px solid rgba(200,175,90,0.25);border-radius:2px;cursor:pointer;font-family:var(--font);font-size:8px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:rgba(200,175,90,0.55);padding:11px 16px;transition:all 0.15s;white-space:nowrap;}
+.client-new-btn:hover{border-color:rgba(200,175,90,0.55);color:rgba(200,175,90,0.90);}
+.client-status{font-size:10px;color:rgba(180,195,210,0.22);letter-spacing:1px;min-height:16px;}
+#client-screen{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:32px;gap:24px;}
+.client-label{font-size:9px;font-weight:300;letter-spacing:4px;color:rgba(180,195,210,0.20);text-transform:uppercase;}
+.client-list{display:flex;flex-direction:column;gap:6px;width:100%;max-width:360px;}
+.client-item{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:2px;cursor:pointer;transition:border-color 0.15s;}
+.client-item:hover{border-color:rgba(200,175,90,0.30);}
+.client-item-name{font-size:13px;font-weight:300;color:var(--text-mid);}
+.client-item-del{background:none;border:none;font-size:10px;color:rgba(200,120,120,0.30);cursor:pointer;padding:2px 6px;transition:color 0.15s;}
+.client-item-del:hover{color:rgba(200,120,120,0.70);}
+.client-new{display:flex;gap:8px;width:100%;max-width:360px;}
+.client-new-inp{flex:1;background:var(--bg-card);border:1px solid var(--border);border-radius:2px;font-family:var(--font);font-size:13px;font-weight:300;color:var(--text-mid);padding:10px 14px;outline:none;transition:border-color 0.15s;}
+.client-new-inp:focus{border-color:rgba(200,175,90,0.30);}
+.client-new-btn{background:none;border:1px solid rgba(200,175,90,0.25);border-radius:2px;cursor:pointer;font-family:var(--font);font-size:8px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:rgba(200,175,90,0.55);padding:10px 14px;transition:all 0.15s;}
+.client-new-btn:hover{border-color:rgba(200,175,90,0.50);color:rgba(200,175,90,0.90);}
+.client-status{font-size:10px;color:rgba(180,195,210,0.25);letter-spacing:1px;}
 </style>
 </head>
 <body>
@@ -504,11 +540,25 @@ header{height:57px;flex-shrink:0;padding:0 32px;border-bottom:1px solid var(--bo
     <button class="hdr-btn" onclick="openDB()">Esercizi</button>
     <button class="hdr-btn undo-btn" id="undo-btn" onclick="undoLast()" style="display:none">undo</button>
     <button class="hdr-btn session-btn" id="session-btn" onclick="logSession()" style="display:none">+ Sessione</button>
-    <button class="reset-btn" onclick="resetState()">reset</button>
+    <button class="reset-btn" onclick="showClientScreen(true)">cambia cliente</button><button class="reset-btn" onclick="resetState()">reset</button>
     <span class="progress-label" id="progress-text">0 / 0</span>
     <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
   </div>
 </header>
+
+
+<!-- CLIENT SCREEN -->
+<div id="client-screen">
+  <div class="client-label">Seleziona cliente</div>
+  <div class="client-list" id="client-list"></div>
+  <div class="client-divider"></div>
+  <div class="client-new">
+    <input class="client-new-inp" id="client-new-inp" type="text" placeholder="Nome nuovo cliente" maxlength="40"
+      onkeydown="if(event.key==='Enter') createClient()">
+    <button class="client-new-btn" onclick="createClient()">Aggiungi</button>
+  </div>
+  <div class="client-status" id="client-status"></div>
+</div>
 
 <!-- CHOOSER -->
 <div id="chooser">
@@ -594,6 +644,10 @@ header{height:57px;flex-shrink:0;padding:0 32px;border-bottom:1px solid var(--bo
       <div id="complete-screen" class="complete-screen">
         <div class="complete-title">Progressione completata</div>
         <div class="complete-sub">Il cliente ha raggiunto il livello massimo su tutte le famiglie.</div>
+        <div style="max-width:480px;margin-top:12px;padding-top:20px;border-top:1px solid rgba(180,195,210,0.08);font-family:var(--font);font-size:12px;font-weight:300;color:rgba(180,195,210,0.40);line-height:1.85;text-align:center;">
+          Prima di passare a PACE, verifica che il cliente abbia gestito il bruciore degli esercizi glicolitici senza evitarli — 8–12 reps sono il riferimento — che abbia mantenuto il Cardio a un'intensità coerente con il resto della sessione, e che sulle stazioni Buffer abbia imparato ad arrivarci con una tattica, non di impulso. Se questi tre elementi ci sono, il sistema è pronto per un formato più strutturato.
+        </div>
+        <div style="margin-top:16px;font-family:var(--font);font-size:11px;font-weight:300;color:rgba(180,195,210,0.25);letter-spacing:1px;">Oppure è possibile ricominciare modificando il focus (scelta consigliata per il monosettimanale).</div>
       </div>
     </div>
     <!-- col 3: timeline -->
@@ -779,8 +833,200 @@ var SEQUENCES = {
 var STATE_KEY = 'open_prog_v3';
 var state = JSON.parse(localStorage.getItem(STATE_KEY) || 'null');
 
-function save(){ localStorage.setItem(STATE_KEY, JSON.stringify(state)); }
+var SUPABASE_URL = 'https://huujwhhfwwtlmtroyxff.supabase.co';
+var SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh1dWp3aGhmd3d0bG10cm95eGZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ0MzU3NzQsImV4cCI6MjA5MDAxMTc3NH0.hEQgjuEZnAD5xpcxXV7TZC0hX1SWTfFnP283kCX9h4M';
+var currentClientId = null;
+var saveTimer = null;
+
+function sbHeaders(){
+  return {
+    'Content-Type':'application/json',
+    'apikey': SUPABASE_KEY,
+    'Authorization': 'Bearer ' + SUPABASE_KEY
+  };
+}
+
+function save(){
+  localStorage.setItem(STATE_KEY, JSON.stringify(state));
+  if(!currentClientId) return;
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(function(){
+    fetch(SUPABASE_URL + '/rest/v1/sessions', {
+      method: 'POST',
+      headers: Object.assign({}, sbHeaders(), {'Prefer':'resolution=merge-duplicates'}),
+      body: JSON.stringify({id: currentClientId, state: state, updated_at: new Date().toISOString()})
+    });
+  }, 800);
+}
+
 function ensureNotes(){ if(!state.notes) state.notes = {}; }
+
+function loadClients(){
+  var status = document.getElementById('client-status');
+  var list = document.getElementById('client-list');
+  status.textContent = 'Caricamento...';
+  list.innerHTML = '';
+  fetch(SUPABASE_URL + '/rest/v1/sessions?select=id,updated_at&order=updated_at.desc', {
+    headers: sbHeaders()
+  })
+  .then(function(r){ return r.json(); })
+  .then(function(rows){
+    status.textContent = '';
+    if(!rows || !rows.length){
+      status.textContent = 'Nessun cliente salvato';
+      return;
+    }
+    list.innerHTML = '';
+    rows.forEach(function(row){
+      var div = document.createElement('div');
+      div.className = 'client-item';
+      div.innerHTML = '<span class="client-item-name">'+row.id+'</span><button class="client-item-del" title="Elimina">✕</button>';
+      div.querySelector('.client-item-name').onclick = function(){ selectClient(row.id); };
+      div.querySelector('.client-item-del').onclick = function(e){ e.stopPropagation(); deleteClient(row.id); };
+      list.appendChild(div);
+    });
+  })
+  .catch(function(){ status.textContent = 'Errore di connessione'; });
+}
+
+function createClient(){
+  var inp = document.getElementById('client-new-inp');
+  var name = inp.value.trim();
+  if(!name) return;
+  inp.value = '';
+  selectClient(name);
+}
+
+function deleteClient(id){
+  if(!confirm('Eliminare "'+id+'"?')) return;
+  fetch(SUPABASE_URL + '/rest/v1/sessions?id=eq.'+encodeURIComponent(id), {
+    method: 'DELETE', headers: sbHeaders()
+  }).then(loadClients);
+}
+
+function selectClient(id){
+  currentClientId = id;
+  document.getElementById('header-client').textContent = id;
+  document.getElementById('client-status').textContent = 'Caricamento...';
+  fetch(SUPABASE_URL + '/rest/v1/sessions?id=eq.'+encodeURIComponent(id)+'&select=state', {
+    headers: sbHeaders()
+  })
+  .then(function(r){ return r.json(); })
+  .then(function(rows){
+    if(rows && rows[0] && rows[0].state){
+      state = rows[0].state;
+    } else {
+      state = null;
+    }
+    showClientScreen(false);
+    showChooserOrMain();
+  })
+  .catch(function(){
+    state = null;
+    showClientScreen(false);
+    showChooserOrMain();
+  });
+}
+
+function showClientScreen(show){
+  var el = document.getElementById('client-screen');
+  if(show){
+    el.classList.remove('hidden');
+    document.getElementById('chooser').style.display = 'none';
+    document.getElementById('main-layout').style.display = 'none';
+    loadClients();
+  } else {
+    el.classList.add('hidden');
+  }
+}
+
+function showChooserOrMain(){
+  if(state && state.type){
+    document.getElementById('chooser').style.display = 'none';
+    document.getElementById('main-layout').style.display = 'flex';
+    renderAll();
+  } else {
+    document.getElementById('chooser').style.display = 'flex';
+    document.getElementById('main-layout').style.display = 'none';
+  }
+}
+
+function loadClients(){
+  var status = document.getElementById('client-status');
+  status.textContent = 'Caricamento...';
+  fetch(SUPABASE_URL + '/rest/v1/sessions?select=id,updated_at&order=updated_at.desc', {
+    headers: sbHeaders()
+  })
+  .then(function(r){ return r.json(); })
+  .then(function(rows){
+    var list = document.getElementById('client-list');
+    list.innerHTML = '';
+    if(!rows || rows.length === 0){
+      status.textContent = 'Nessun cliente — aggiungine uno';
+      return;
+    }
+    status.textContent = '';
+    rows.forEach(function(row){
+      var item = document.createElement('div');
+      item.className = 'client-item';
+      item.innerHTML = '<span class="client-item-name">'+row.id+'</span><button class="client-item-del" onclick="deleteClient(event,\''+row.id+'\')">✕</button>';
+      item.querySelector('.client-item-name').onclick = function(){ selectClient(row.id); };
+      list.appendChild(item);
+    });
+  })
+  .catch(function(){ status.textContent = 'Errore di connessione'; });
+}
+
+function createClient(){
+  var inp = document.getElementById('client-new-inp');
+  var name = inp.value.trim();
+  if(!name) return;
+  inp.value = '';
+  selectClient(name);
+}
+
+function deleteClient(e, id){
+  e.stopPropagation();
+  if(!confirm('Eliminare il cliente "'+id+'"?')) return;
+  fetch(SUPABASE_URL + '/rest/v1/sessions?id=eq.'+encodeURIComponent(id), {
+    method: 'DELETE', headers: sbHeaders()
+  }).then(loadClients);
+}
+
+function selectClient(id){
+  currentClientId = id;
+  document.getElementById('header-client').textContent = id;
+  fetch(SUPABASE_URL + '/rest/v1/sessions?id=eq.'+encodeURIComponent(id)+'&select=state', {
+    headers: sbHeaders()
+  })
+  .then(function(r){ return r.json(); })
+  .then(function(rows){
+    if(rows && rows[0] && rows[0].state){
+      state = rows[0].state;
+      localStorage.setItem(STATE_KEY, JSON.stringify(state));
+    } else {
+      state = null;
+    }
+    document.getElementById('client-screen').style.display = 'none';
+    showChooserOrMain();
+  })
+  .catch(function(){
+    state = null;
+    document.getElementById('client-screen').style.display = 'none';
+    showChooserOrMain();
+  });
+}
+
+function showChooserOrMain(){
+  if(state && state.type){
+    document.getElementById('chooser').style.display = 'none';
+    document.getElementById('main-layout').style.display = 'flex';
+    renderAll();
+  } else {
+    document.getElementById('chooser').style.display = 'flex';
+    document.getElementById('main-layout').style.display = 'none';
+  }
+}
 
 // Slot definitions per focus type
 var FOCUS_SLOTS = {
