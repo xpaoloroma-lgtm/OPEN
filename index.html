@@ -31,9 +31,9 @@ header{height:57px;flex-shrink:0;padding:0 28px;border-bottom:1px solid var(--bo
 #breadcrumb{display:flex;align-items:center;gap:0;min-width:0;}
 .bc-item{
   display:flex;align-items:center;
-  font-family:var(--font);font-size:13px;font-weight:300;
+  font-family:var(--font);font-size:12px;font-weight:300;
   letter-spacing:2px;text-transform:uppercase;
-  color:rgba(200,212,222,0.75);
+  color:rgba(200,212,222,0.90);
   white-space:nowrap;
 }
 .bc-item.bc-link{
@@ -41,12 +41,12 @@ header{height:57px;flex-shrink:0;padding:0 28px;border-bottom:1px solid var(--bo
 }
 .bc-item.bc-link:hover{color:rgba(200,175,90,0.85);}
 .bc-item.bc-active{
-  color:rgba(240,235,220,0.95);
-  font-weight:400;
+  color:rgba(240,235,220,1.0);
+  font-weight:500;
 }
 .bc-sep{
-  font-size:15px;color:rgba(180,195,210,0.7);
-  margin:0 10px;flex-shrink:0;
+  font-size:13px;color:rgba(180,195,210,0.55);
+  margin:0 8px;flex-shrink:0;
 }
 .header-right{display:flex;align-items:center;gap:14px;}
 .progress-label{font-size:10px;letter-spacing:2px;color:rgba(180,195,210,0.55);text-transform:uppercase;}
@@ -1618,6 +1618,7 @@ header{height:57px;flex-shrink:0;padding:0 28px;border-bottom:1px solid var(--bo
 .proto-skip-opt:last-child{border-bottom:none;}
 .proto-skip-opt:hover{background:rgba(200,175,90,0.05);}
 .proto-skip-opt.selected{border-color:rgba(200,175,90,0.50);background:rgba(200,175,90,0.06);}
+.proto-card.selected{border-color:rgba(200,175,90,0.60);background:rgba(200,175,90,0.04);}
 .proto-skip-opt.wip{cursor:default;}
 .proto-skip-opt.wip:hover{background:transparent;}
 .proto-skip-opt-name{
@@ -2597,7 +2598,7 @@ header{height:57px;flex-shrink:0;padding:0 28px;border-bottom:1px solid var(--bo
       Frequenza per PT
       <div id="proto-chart-legend"></div>
     </div>
-    <div style="position:relative;height:120px;"><canvas id="proto-chart"></canvas></div>
+    <div style="position:relative;height:200px;"><canvas id="proto-chart"></canvas></div>
   </div>
 </div>
 
@@ -2655,8 +2656,11 @@ header{height:57px;flex-shrink:0;padding:0 28px;border-bottom:1px solid var(--bo
 </div>
 <div id="cs">
   <div class="cs-top">
-    <button onclick="csOpen()" style="background:none;border:none;cursor:pointer;font-family:var(--font);font-size:9px;font-weight:300;letter-spacing:3px;text-transform:uppercase;color:rgba(180,195,210,0.50);transition:color 0.15s;padding:0;" onmouseover="this.style.color='rgba(200,175,90,0.80)'" onmouseout="this.style.color='rgba(180,195,210,0.50)'">← protocollo</button>
-    <span class="cs-top-title" id="cs-top-title">Seleziona</span>
+    <nav style="display:flex;align-items:center;gap:0;">
+      <span onclick="csOpen()" style="font-family:var(--font);font-size:12px;font-weight:300;letter-spacing:2px;text-transform:uppercase;color:rgba(200,212,222,0.90);cursor:pointer;transition:color 0.15s;" onmouseover="this.style.color='rgba(200,175,90,0.85)'" onmouseout="this.style.color='rgba(200,212,222,0.90)'" id="cs-bc-pt"></span>
+      <span style="font-size:13px;color:rgba(180,195,210,0.55);margin:0 8px;" id="cs-bc-sep">›</span>
+      <span style="font-family:var(--font);font-size:12px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:rgba(240,235,220,1.0);" id="cs-bc-proto">Seleziona</span>
+    </nav>
     <div class="cs-top-sort">
       <button class="cs-sb on" id="csS1" onclick="csSetSort('az')">A → Z</button>
       <button class="cs-sb" id="csS2" onclick="csSetSort('date')">Recenti</button>
@@ -2690,7 +2694,9 @@ header{height:57px;flex-shrink:0;padding:0 28px;border-bottom:1px solid var(--bo
     </div>
   </div>
   <nav id="breadcrumb">
-    <span class="bc-item bc-link" id="bc-proto" onclick="csOpen()" title="torna ai protocolli">Open</span>
+    <span class="bc-item bc-link" id="bc-pt" onclick="csOpen()" title="cambia PT o protocollo"></span>
+    <span class="bc-sep" id="bc-sep-0" style="display:none">›</span>
+    <span class="bc-item bc-link" id="bc-proto" onclick="csOpen()"></span>
     <span class="bc-sep" id="bc-sep-1" style="display:none">›</span>
     <span class="bc-item bc-link" id="bc-client" style="display:none" onclick="bcGoClient()"></span>
     <span class="bc-sep" id="bc-sep-2" style="display:none">›</span>
@@ -3263,6 +3269,15 @@ function csDeleteDirect(id){
 }
 
 function csRender(){
+  /* update cs-top breadcrumb */
+  var csBcPt = document.getElementById('cs-bc-pt');
+  var csBcProto = document.getElementById('cs-bc-proto');
+  if(csBcPt) csBcPt.textContent = _currentPT || '';
+  if(csBcProto){
+    var label = _currentProto === 'open' ? 'Open' : (_skipMode==='single' ? 'Skip Singolo' : 'Skip Gruppo');
+    csBcProto.textContent = label;
+  }
+
   /* adapt cs screen for protocol */
   var isSkip = _currentProto === 'skip';
   var clientCol = document.querySelector('#cs .cs-body > div:first-child');
@@ -5221,6 +5236,8 @@ var _currentProto = null;
 
 /* ── BREADCRUMB ── */
 function bcUpdate(){
+  var ptEl     = document.getElementById('bc-pt');
+  var sep0     = document.getElementById('bc-sep-0');
   var proto    = document.getElementById('bc-proto');
   var sep1     = document.getElementById('bc-sep-1');
   var client   = document.getElementById('bc-client');
@@ -5228,7 +5245,23 @@ function bcUpdate(){
   var focus    = document.getElementById('bc-focus');
   var resetBtn = document.getElementById('hdr-reset-btn');
 
-  proto.textContent = _currentProto ? _currentProto.toUpperCase() : '←';
+  /* PT */
+  if(ptEl){
+    if(_currentPT){
+      ptEl.textContent = _currentPT;
+      ptEl.style.display = '';
+      if(sep0) sep0.style.display = '';
+    } else {
+      ptEl.style.display = 'none';
+      if(sep0) sep0.style.display = 'none';
+    }
+  }
+
+  /* Protocollo label */
+  var protoLabel = '';
+  if(_currentProto === 'open') protoLabel = 'Open';
+  else if(_currentProto === 'skip') protoLabel = (_skipMode==='single' ? 'Skip Singolo' : 'Skip Gruppo');
+  proto.textContent = protoLabel || '←';
 
   /* reset only shows in OPEN when inside a session */
   if(resetBtn) resetBtn.style.display = (_currentProto==='open' && state && state.type) ? '' : 'none';
