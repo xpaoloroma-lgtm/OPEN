@@ -1,0 +1,76 @@
+name: Backup giornaliero dati Supabase
+ 
+# Quando si esegue:
+#   - automaticamente ogni giorno alle 03:00 UTC (~04:00-05:00 italiane)
+#   - manualmente dal bottone "Run workflow" su GitHub (Actions tab)
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+ 
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # serve per scrivere il file di backup nel repo
+ 
+    steps:
+      - name: Scarica il repo
+        uses: actions/checkout@v4
+ 
+      - name: Scarica i dati da Supabase
+        env:
+          SB_URL: ${{ secrets.SB_URL }}
+          SB_KEY: ${{ secrets.SB_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p backups
+          DATE=$(date -u +%Y-%m-%d)
+          FILE="backups/${DATE}.json"
+ 
+          # Scarica TUTTI i record dalla tabella `sessions`.
+          # Range 0-9999 = fino a 10.000 clienti in una sola chiamata (più che sufficiente).
+          HTTP_CODE=$(curl -s -o "$FILE" -w "%{http_code}" \
+            "${SB_URL}/rest/v1/sessions?select=*" \
+            -H "apikey: ${SB_KEY}" \
+            -H "Authorization: Bearer ${SB_KEY}" \
+            -H "Range: 0-9999")
+ 
+          # Controllo 1: la risposta deve essere HTTP 200 (OK) o 206 (Partial Content)
+          if [ "$HTTP_CODE" != "200" ] && [ "$HTTP_CODE" != "206" ]; then
+            echo "::error::Risposta inattesa da Supabase: HTTP $HTTP_CODE"
+            cat "$FILE"
+            exit 1
+          fi
+ 
+          # Controllo 2: il file non deve essere vuoto
+          if [ ! -s "$FILE" ]; then
+            echo "::error::Backup vuoto — qualcosa non va"
+            exit 1
+          fi
+ 
+          # Controllo 3: deve essere un array JSON valido
+          if ! jq -e 'type == "array"' "$FILE" > /dev/null; then
+            echo "::error::Risposta non è un array JSON valido"
+            cat "$FILE"
+            exit 1
+          fi
+ 
+          # Riformatta il file per renderlo leggibile a occhio
+          jq '.' "$FILE" > "${FILE}.tmp" && mv "${FILE}.tmp" "$FILE"
+ 
+          # Log: quanti clienti sono stati salvati
+          COUNT=$(jq 'length' "$FILE")
+          echo "✓ Backup completato: $COUNT clienti salvati in $FILE"
+ 
+      - name: Committa il backup nel repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add backups/
+          if git diff --staged --quiet; then
+            echo "Nessun cambiamento: il backup di oggi era già presente"
+          else
+            git commit -m "Backup automatico $(date -u +%Y-%m-%d)"
+            git push
+          fi
