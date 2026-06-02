@@ -1,0 +1,5480 @@
+[
+  {
+    "id": "Paolo Ranzani",
+    "state": {
+      "pt": "PR",
+      "log": [
+        {
+          "pt": "Ale",
+          "date": "2026-04-24",
+          "time": "11:00",
+          "type": "session"
+        },
+        {
+          "pt": "Ile",
+          "date": "2026-04-29",
+          "time": "11:00",
+          "type": "session"
+        },
+        {
+          "pt": "Fil",
+          "date": "2026-05-02",
+          "time": "9:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-06",
+          "time": "18:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-11",
+          "time": "12:00",
+          "type": "session"
+        },
+        {
+          "pt": "Fil",
+          "date": "2026-05-13",
+          "time": "12:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-20",
+          "time": "18:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-23",
+          "time": "10:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-26",
+          "time": "13:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": 2,
+          "fam": "row",
+          "date": "2026-05-26",
+          "type": "step",
+          "label": "Upper → L2"
+        }
+      ],
+      "grid": {
+        "pt": null,
+        "log": [],
+        "cells": [],
+        "schede": [],
+        "archive": [],
+        "startDate": null
+      },
+      "open": {
+        "pt": "PR",
+        "log": [
+          {
+            "pt": "Ale",
+            "date": "2026-04-24",
+            "time": "11:00",
+            "type": "session"
+          },
+          {
+            "pt": "Ile",
+            "date": "2026-04-29",
+            "time": "11:00",
+            "type": "session"
+          },
+          {
+            "pt": "Fil",
+            "date": "2026-05-02",
+            "time": "9:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-06",
+            "time": "18:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-11",
+            "time": "12:00",
+            "type": "session"
+          },
+          {
+            "pt": "Fil",
+            "date": "2026-05-13",
+            "time": "12:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-20",
+            "time": "18:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-23",
+            "time": "10:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-26",
+            "time": "13:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": 2,
+            "fam": "row",
+            "date": "2026-05-26",
+            "type": "step",
+            "label": "Upper → L2"
+          }
+        ],
+        "type": "row2",
+        "notes": {
+          "row": "vpress panca 10 kb6",
+          "core": "16+16",
+          "row2": "h4",
+          "lower": "sandbag fake 25",
+          "buffer": "kb 16, switch max veloce"
+        },
+        "levels": {
+          "row": 2,
+          "core": 1,
+          "row2": 1,
+          "lower": 1,
+          "buffer": 1
+        },
+        "scheda": {
+          "row": {
+            "id": 86,
+            "fam": "push",
+            "nome": "Press"
+          },
+          "core": {
+            "id": 18,
+            "fam": "core",
+            "nome": "Farmer Carry"
+          },
+          "row2": {
+            "id": 30,
+            "fam": "push",
+            "nome": "Rack Push Up"
+          },
+          "lower": {
+            "id": 4,
+            "fam": "lower",
+            "nome": "Walked Lunge"
+          },
+          "buffer": {
+            "id": 64,
+            "fam": "buffer",
+            "nome": "Deep Split Row"
+          }
+        },
+        "current": 1,
+        "startDate": "2026-04-23T15:07:34.655Z",
+        "calibration": null
+      },
+      "skip": {
+        "pt": null,
+        "log": [],
+        "swapLog": [],
+        "startDate": null
+      },
+      "type": "row2",
+      "notes": {
+        "row": "vpress panca 10 kb6",
+        "core": "16+16",
+        "row2": "h4",
+        "lower": "sandbag fake 25",
+        "buffer": "kb 16, switch max veloce"
+      },
+      "levels": {
+        "row": 2,
+        "core": 1,
+        "row2": 1,
+        "lower": 1,
+        "buffer": 1
+      },
+      "scheda": {
+        "row": {
+          "id": 86,
+          "fam": "push",
+          "nome": "Press"
+        },
+        "core": {
+          "id": 18,
+          "fam": "core",
+          "nome": "Farmer Carry"
+        },
+        "row2": {
+          "id": 30,
+          "fam": "push",
+          "nome": "Rack Push Up"
+        },
+        "lower": {
+          "id": 4,
+          "fam": "lower",
+          "nome": "Walked Lunge"
+        },
+        "buffer": {
+          "id": 64,
+          "fam": "buffer",
+          "nome": "Deep Split Row"
+        }
+      },
+      "current": 1,
+      "journal": [
+        {
+          "pt": "PR",
+          "ts": "2026-04-23T15:07:34.655Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Secondo Upper"
+        },
+        {
+          "pt": "Ale",
+          "ts": "2026-04-24T11:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "Ile",
+          "ts": "2026-04-29T11:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "Fil",
+          "ts": "2026-05-02T09:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-06T16:02:37.774Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-11T10:02:08.815Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "Fil",
+          "ts": "2026-05-13T10:04:26.103Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-20T16:08:16.182Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-23T08:05:08.586Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-26T11:57:13.254Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        }
+      ],
+      "startDate": "2026-04-23T15:07:34.655Z",
+      "calibration": null,
+      "createdDate": "2026-04-23T15:07:34.655Z",
+      "_sessionConsistencyDone": true
+    },
+    "updated_at": "2026-05-30T10:04:35.764"
+  },
+  {
+    "id": "Salvatore Quatriglio",
+    "state": {
+      "pt": "PR",
+      "log": [
+        {
+          "pt": "PR",
+          "date": "2026-05-30",
+          "time": "11:00",
+          "type": "session"
+        }
+      ],
+      "grid": {
+        "pt": null,
+        "log": [],
+        "cells": [],
+        "schede": [],
+        "archive": [],
+        "startDate": null
+      },
+      "open": {
+        "pt": "PR",
+        "log": [
+          {
+            "pt": "PR",
+            "date": "2026-05-30",
+            "time": "11:00",
+            "type": "session"
+          }
+        ],
+        "type": "core2",
+        "notes": {
+          "row": "h2",
+          "core": "12",
+          "buffer": "h10"
+        },
+        "levels": {
+          "row": 1,
+          "core": 1,
+          "core2": 1,
+          "lower": 1,
+          "buffer": 1
+        },
+        "scheda": {
+          "row": {
+            "id": 30,
+            "fam": "push",
+            "nome": "Rack Push Up"
+          },
+          "core": {
+            "id": 18,
+            "fam": "core",
+            "nome": "Farmer Carry"
+          },
+          "core2": {
+            "id": 24,
+            "fam": "core",
+            "nome": "Knee Plank to Touch"
+          },
+          "lower": {
+            "id": 4,
+            "fam": "lower",
+            "nome": "Walked Lunge"
+          },
+          "buffer": {
+            "id": 87,
+            "fam": "buffer",
+            "nome": "Frogger"
+          }
+        },
+        "current": 0,
+        "startDate": "2026-05-30T09:15:51.287Z",
+        "calibration": {
+          "row": false,
+          "core": false,
+          "core2": false,
+          "lower": false,
+          "buffer": false
+        }
+      },
+      "skip": {
+        "pt": null,
+        "log": [],
+        "swapLog": [],
+        "startDate": null
+      },
+      "type": "core2",
+      "notes": {
+        "row": "h2",
+        "core": "12",
+        "buffer": "h10"
+      },
+      "levels": {
+        "row": 1,
+        "core": 1,
+        "core2": 1,
+        "lower": 1,
+        "buffer": 1
+      },
+      "scheda": {
+        "row": {
+          "id": 30,
+          "fam": "push",
+          "nome": "Rack Push Up"
+        },
+        "core": {
+          "id": 18,
+          "fam": "core",
+          "nome": "Farmer Carry"
+        },
+        "core2": {
+          "id": 24,
+          "fam": "core",
+          "nome": "Knee Plank to Touch"
+        },
+        "lower": {
+          "id": 4,
+          "fam": "lower",
+          "nome": "Walked Lunge"
+        },
+        "buffer": {
+          "id": 87,
+          "fam": "buffer",
+          "nome": "Frogger"
+        }
+      },
+      "current": 0,
+      "journal": [
+        {
+          "pt": "PR",
+          "ts": "2026-05-30T09:15:51.287Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Secondo Core"
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-30T09:15:51.287Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Secondo Core"
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-30T09:17:20.053Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        }
+      ],
+      "startDate": "2026-05-30T09:15:51.287Z",
+      "calibration": {
+        "row": false,
+        "core": false,
+        "core2": false,
+        "lower": false,
+        "buffer": false
+      },
+      "createdDate": "2026-05-30T09:15:51.287Z",
+      "_sessionConsistencyDone": true
+    },
+    "updated_at": "2026-05-30T10:04:35.764"
+  },
+  {
+    "id": "Michela Melissano",
+    "state": {
+      "pt": "PR",
+      "log": [
+        {
+          "to": "Skill Climber",
+          "fam": "buffer2",
+          "date": "2026-04-03",
+          "from": "Climber",
+          "note": "r8",
+          "slot": "Buffer B",
+          "type": "variation"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-10",
+          "time": "19:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": 2,
+          "fam": "row",
+          "date": "2026-04-10",
+          "type": "step",
+          "label": "Row / Push → L2"
+        },
+        {
+          "pt": "PR",
+          "to": "Knee Plank",
+          "fam": "core",
+          "date": "2026-04-10",
+          "from": "Farmer Carry",
+          "note": "8",
+          "slot": "Core",
+          "type": "variation"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-08",
+          "time": "19:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-29",
+          "time": "19:00",
+          "type": "session"
+        }
+      ],
+      "grid": {
+        "pt": null,
+        "log": [],
+        "cells": [],
+        "schede": [],
+        "archive": [],
+        "startDate": null
+      },
+      "open": {
+        "pt": "PR",
+        "log": [
+          {
+            "to": "Skill Climber",
+            "fam": "buffer2",
+            "date": "2026-04-03",
+            "from": "Climber",
+            "note": "r8",
+            "slot": "Buffer B",
+            "type": "variation"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-04-10",
+            "time": "19:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": 2,
+            "fam": "row",
+            "date": "2026-04-10",
+            "type": "step",
+            "label": "Row / Push → L2"
+          },
+          {
+            "pt": "PR",
+            "to": "Knee Plank",
+            "fam": "core",
+            "date": "2026-04-10",
+            "from": "Farmer Carry",
+            "note": "8",
+            "slot": "Core",
+            "type": "variation"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-08",
+            "time": "19:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-29",
+            "time": "19:00",
+            "type": "session"
+          }
+        ],
+        "type": "buffer2",
+        "notes": {
+          "row": "h4",
+          "core": "pelle",
+          "lower": "bw",
+          "buffer": "con salto",
+          "_warmup": "mob caviglia",
+          "buffer2": "r7"
+        },
+        "levels": {
+          "row": 2,
+          "core": 1,
+          "lower": 1,
+          "buffer": 1,
+          "buffer2": 1
+        },
+        "scheda": {
+          "row": {
+            "id": 30,
+            "fam": "push",
+            "nome": "Rack Push Up"
+          },
+          "core": {
+            "id": 22,
+            "fam": "core",
+            "nome": "Knee Plank"
+          },
+          "lower": {
+            "id": 4,
+            "fam": "lower",
+            "nome": "Walked Lunge"
+          },
+          "buffer": {
+            "id": 17,
+            "fam": "buffer",
+            "nome": "Up & Down"
+          },
+          "buffer2": {
+            "id": 8,
+            "fam": "buffer",
+            "nome": "Skill Climber"
+          }
+        },
+        "current": 1,
+        "startDate": "2026-04-03T17:09:01.511Z",
+        "calibration": {
+          "row": true,
+          "core": true,
+          "lower": true,
+          "buffer": true,
+          "buffer2": true
+        }
+      },
+      "skip": {
+        "pt": null,
+        "log": [],
+        "swapLog": [],
+        "startDate": null
+      },
+      "type": "buffer2",
+      "notes": {
+        "row": "h4",
+        "core": "pelle",
+        "lower": "bw",
+        "buffer": "con salto",
+        "_warmup": "mob caviglia",
+        "buffer2": "r7"
+      },
+      "levels": {
+        "row": 2,
+        "core": 1,
+        "lower": 1,
+        "buffer": 1,
+        "buffer2": 1
+      },
+      "scheda": {
+        "row": {
+          "id": 30,
+          "fam": "push",
+          "nome": "Rack Push Up"
+        },
+        "core": {
+          "id": 22,
+          "fam": "core",
+          "nome": "Knee Plank"
+        },
+        "lower": {
+          "id": 4,
+          "fam": "lower",
+          "nome": "Walked Lunge"
+        },
+        "buffer": {
+          "id": 17,
+          "fam": "buffer",
+          "nome": "Up & Down"
+        },
+        "buffer2": {
+          "id": 8,
+          "fam": "buffer",
+          "nome": "Skill Climber"
+        }
+      },
+      "current": 1,
+      "journal": [
+        {
+          "pt": "PR",
+          "ts": "2026-04-03T17:09:01.511Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Secondo Buffer"
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-10T19:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-08T17:01:30.610Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-29T17:03:57.944Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        }
+      ],
+      "startDate": "2026-04-03T17:09:01.511Z",
+      "calibration": {
+        "row": true,
+        "core": true,
+        "lower": true,
+        "buffer": true,
+        "buffer2": true
+      },
+      "createdDate": "2026-04-03T17:09:01.511Z",
+      "_sessionConsistencyDone": true
+    },
+    "updated_at": "2026-05-30T10:04:35.764"
+  },
+  {
+    "id": "Azzurra Clerici",
+    "state": {
+      "pt": "PR",
+      "log": [
+        {
+          "pt": "PR",
+          "date": "2026-04-13",
+          "time": "18:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": "Farmer Carry",
+          "fam": "core",
+          "date": "2026-04-13",
+          "from": "Hug & Walk",
+          "note": "10",
+          "slot": "Core",
+          "type": "variation"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-27",
+          "time": "19:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-04",
+          "time": "19:00",
+          "type": "session"
+        }
+      ],
+      "grid": {
+        "pt": null,
+        "log": [],
+        "cells": [],
+        "schede": [
+          {
+            "id": "sch-1780044892187",
+            "log": [],
+            "cells": [
+              {
+                "c": 0,
+                "r": 0,
+                "t": "dsdsdsd"
+              },
+              {
+                "c": 1,
+                "r": 5,
+                "t": "dsdsdsd"
+              }
+            ],
+            "status": "draft",
+            "activeFor": 10,
+            "createdAt": "2026-05-29T08:54:52.187Z",
+            "createdBy": "Ste",
+            "isCurrent": false,
+            "archivedAt": null,
+            "assignedTo": null,
+            "description": "ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+            "exhaustedAt": null,
+            "finalizedAt": null,
+            "finalizedBy": null,
+            "sessionCount": 0,
+            "forcedExhausted": false
+          }
+        ],
+        "archive": [],
+        "startDate": null
+      },
+      "open": {
+        "pt": "PR",
+        "log": [
+          {
+            "pt": "PR",
+            "date": "2026-04-13",
+            "time": "18:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": "Farmer Carry",
+            "fam": "core",
+            "date": "2026-04-13",
+            "from": "Hug & Walk",
+            "note": "10",
+            "slot": "Core",
+            "type": "variation"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-04-27",
+            "time": "19:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-04",
+            "time": "19:00",
+            "type": "session"
+          }
+        ],
+        "type": "lower2",
+        "notes": {
+          "row": "55",
+          "core": "16",
+          "lower": "12",
+          "buffer": "R8"
+        },
+        "levels": {
+          "row": 1,
+          "core": 1,
+          "lower": 1,
+          "buffer": 1,
+          "lower2": 1
+        },
+        "scheda": {
+          "row": {
+            "id": 35,
+            "fam": "row",
+            "nome": "Vertical Traction"
+          },
+          "core": {
+            "id": 18,
+            "fam": "core",
+            "nome": "Farmer Carry"
+          },
+          "lower": {
+            "id": 72,
+            "fam": "lower",
+            "nome": "Rack Squat"
+          },
+          "buffer": {
+            "id": 7,
+            "fam": "buffer",
+            "nome": "Sled Push"
+          },
+          "lower2": {
+            "id": 5,
+            "fam": "lower",
+            "nome": "Surrender"
+          }
+        },
+        "current": 0,
+        "startDate": "2026-04-13T16:57:14.697Z",
+        "calibration": null
+      },
+      "skip": {
+        "pt": null,
+        "log": [],
+        "swapLog": [],
+        "startDate": null
+      },
+      "type": "lower2",
+      "notes": {
+        "row": "55",
+        "core": "16",
+        "lower": "12",
+        "buffer": "R8"
+      },
+      "levels": {
+        "row": 1,
+        "core": 1,
+        "lower": 1,
+        "buffer": 1,
+        "lower2": 1
+      },
+      "scheda": {
+        "row": {
+          "id": 35,
+          "fam": "row",
+          "nome": "Vertical Traction"
+        },
+        "core": {
+          "id": 18,
+          "fam": "core",
+          "nome": "Farmer Carry"
+        },
+        "lower": {
+          "id": 72,
+          "fam": "lower",
+          "nome": "Rack Squat"
+        },
+        "buffer": {
+          "id": 7,
+          "fam": "buffer",
+          "nome": "Sled Push"
+        },
+        "lower2": {
+          "id": 5,
+          "fam": "lower",
+          "nome": "Surrender"
+        }
+      },
+      "current": 0,
+      "journal": [
+        {
+          "pt": "PR",
+          "ts": "2026-04-13T16:57:14.697Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Secondo Lower"
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-13T18:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-27T19:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-04T19:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        }
+      ],
+      "startDate": "2026-04-13T16:57:14.697Z",
+      "calibration": null,
+      "createdDate": "2026-04-13T16:57:14.697Z",
+      "_sessionConsistencyDone": true
+    },
+    "updated_at": "2026-05-29T09:46:45.441"
+  },
+  {
+    "id": "Alessio Re Fraschini",
+    "state": {
+      "pt": "PR",
+      "log": [
+        {
+          "pt": "PR",
+          "date": "2026-04-11",
+          "time": "12:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-14",
+          "time": "19:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-18",
+          "time": "9:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": 2,
+          "fam": "row",
+          "date": "2026-04-18",
+          "type": "step",
+          "label": "Row / Push → L2"
+        },
+        {
+          "pt": "Fil",
+          "date": "2026-05-02",
+          "time": "8:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-05",
+          "time": "19:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-09",
+          "time": "12:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": 2,
+          "fam": "core",
+          "date": "2026-05-09",
+          "type": "step",
+          "label": "Core → L2"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-12",
+          "time": "19:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": 2,
+          "fam": "buffer",
+          "date": "2026-05-12",
+          "type": "step",
+          "label": "Buffer → L2"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-19",
+          "time": "19:00",
+          "type": "session"
+        },
+        {
+          "pt": "Fil",
+          "date": "2026-05-26",
+          "time": "19:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-30",
+          "time": "12:00",
+          "type": "session"
+        }
+      ],
+      "grid": {
+        "pt": null,
+        "log": [],
+        "cells": [],
+        "schede": [
+          {
+            "id": "sch-1780044809751",
+            "log": [],
+            "cells": [],
+            "status": "draft",
+            "activeFor": 10,
+            "createdAt": "2026-05-29T08:53:29.751Z",
+            "createdBy": "Ste",
+            "isCurrent": false,
+            "archivedAt": null,
+            "assignedTo": null,
+            "description": "ddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+            "exhaustedAt": null,
+            "finalizedAt": null,
+            "finalizedBy": null,
+            "sessionCount": 0,
+            "forcedExhausted": false
+          }
+        ],
+        "archive": [],
+        "startDate": null
+      },
+      "open": {
+        "pt": "PR",
+        "log": [
+          {
+            "pt": "PR",
+            "date": "2026-04-11",
+            "time": "12:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-04-14",
+            "time": "19:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-04-18",
+            "time": "9:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": 2,
+            "fam": "row",
+            "date": "2026-04-18",
+            "type": "step",
+            "label": "Row / Push → L2"
+          },
+          {
+            "pt": "Fil",
+            "date": "2026-05-02",
+            "time": "8:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-05",
+            "time": "19:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-09",
+            "time": "12:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": 2,
+            "fam": "core",
+            "date": "2026-05-09",
+            "type": "step",
+            "label": "Core → L2"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-12",
+            "time": "19:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": 2,
+            "fam": "buffer",
+            "date": "2026-05-12",
+            "type": "step",
+            "label": "Buffer → L2"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-19",
+            "time": "19:00",
+            "type": "session"
+          },
+          {
+            "pt": "Fil",
+            "date": "2026-05-26",
+            "time": "19:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-30",
+            "time": "12:00",
+            "type": "session"
+          }
+        ],
+        "type": "cardio",
+        "notes": {
+          "row": "h 4",
+          "lower": "fake 30",
+          "buffer": "r10 chipp",
+          "cardio": "vel 9"
+        },
+        "levels": {
+          "row": 2,
+          "core": 2,
+          "lower": 1,
+          "buffer": 2,
+          "cardio": 1
+        },
+        "scheda": {
+          "row": {
+            "id": 30,
+            "fam": "push",
+            "nome": "Rack Push Up"
+          },
+          "core": {
+            "id": 21,
+            "fam": "core",
+            "nome": "Plank"
+          },
+          "lower": {
+            "id": 4,
+            "fam": "lower",
+            "nome": "Walked Lunge"
+          },
+          "buffer": {
+            "id": 7,
+            "fam": "buffer",
+            "nome": "Sled Push"
+          },
+          "cardio": {
+            "id": 9,
+            "fam": "tempo",
+            "nome": "Run"
+          }
+        },
+        "current": 3,
+        "startDate": "2026-04-11T10:04:55.491Z",
+        "calibration": {
+          "row": true,
+          "core": true,
+          "lower": true,
+          "buffer": true,
+          "cardio": true
+        }
+      },
+      "skip": {
+        "pt": null,
+        "log": [],
+        "swapLog": [],
+        "startDate": null
+      },
+      "type": "cardio",
+      "notes": {
+        "row": "h 4",
+        "lower": "fake 30",
+        "buffer": "r10 chipp",
+        "cardio": "vel 9"
+      },
+      "levels": {
+        "row": 2,
+        "core": 2,
+        "lower": 1,
+        "buffer": 2,
+        "cardio": 1
+      },
+      "scheda": {
+        "row": {
+          "id": 30,
+          "fam": "push",
+          "nome": "Rack Push Up"
+        },
+        "core": {
+          "id": 21,
+          "fam": "core",
+          "nome": "Plank"
+        },
+        "lower": {
+          "id": 4,
+          "fam": "lower",
+          "nome": "Walked Lunge"
+        },
+        "buffer": {
+          "id": 7,
+          "fam": "buffer",
+          "nome": "Sled Push"
+        },
+        "cardio": {
+          "id": 9,
+          "fam": "tempo",
+          "nome": "Run"
+        }
+      },
+      "current": 3,
+      "journal": [
+        {
+          "pt": "PR",
+          "ts": "2026-04-11T10:04:55.491Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Cardio Tempo"
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-11T12:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-14T19:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-18T09:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "Fil",
+          "ts": "2026-05-02T08:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-05T17:05:21.964Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-09T10:05:27.910Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-12T17:05:19.211Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-19T17:06:04.836Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "Fil",
+          "ts": "2026-05-26T17:06:34.896Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-30T10:05:42.688Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        }
+      ],
+      "startDate": "2026-04-11T10:04:55.491Z",
+      "calibration": {
+        "row": true,
+        "core": true,
+        "lower": true,
+        "buffer": true,
+        "cardio": true
+      },
+      "createdDate": "2026-04-11T10:04:55.491Z",
+      "_sessionConsistencyDone": true
+    },
+    "updated_at": "2026-05-30T10:05:42.693"
+  },
+  {
+    "id": "Cancian Alessandra",
+    "state": {
+      "pt": "Fil",
+      "log": [
+        {
+          "pt": "Ale",
+          "date": "2026-05-18",
+          "time": "11:00",
+          "type": "session"
+        },
+        {
+          "pt": "Ale",
+          "date": "2026-05-25",
+          "time": "11:00",
+          "type": "session"
+        }
+      ],
+      "grid": {
+        "pt": null,
+        "log": [],
+        "cells": [],
+        "schede": [
+          {
+            "id": "sch-1780044908979",
+            "log": [],
+            "cells": [
+              {
+                "c": 5,
+                "r": 9,
+                "t": "sd"
+              }
+            ],
+            "status": "draft",
+            "activeFor": 10,
+            "createdAt": "2026-05-29T08:55:08.979Z",
+            "createdBy": "PR",
+            "isCurrent": false,
+            "archivedAt": null,
+            "assignedTo": null,
+            "description": "ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+            "exhaustedAt": null,
+            "finalizedAt": null,
+            "finalizedBy": null,
+            "sessionCount": 0,
+            "forcedExhausted": false
+          }
+        ],
+        "archive": [],
+        "startDate": null
+      },
+      "open": {
+        "pt": "Fil",
+        "log": [
+          {
+            "pt": "Ale",
+            "date": "2026-05-18",
+            "time": "11:00",
+            "type": "session"
+          },
+          {
+            "pt": "Ale",
+            "date": "2026-05-25",
+            "time": "11:00",
+            "type": "session"
+          }
+        ],
+        "type": "cardio",
+        "notes": {
+          "row": "seduta 30kg",
+          "core": "acqua",
+          "lower": "Charlot 16kg",
+          "buffer": "step alto",
+          "cardio": "tutta bassa R:3\n",
+          "_warmup": "Cat cow\nSpiderman stretch\nDownward dog",
+          "_cooldown": "Stretching generale"
+        },
+        "levels": {
+          "row": 1,
+          "core": 1,
+          "lower": 1,
+          "buffer": 1,
+          "cardio": 1
+        },
+        "scheda": {
+          "row": {
+            "id": 25,
+            "fam": "row",
+            "nome": "Cable Row"
+          },
+          "core": {
+            "id": 36,
+            "fam": "core",
+            "nome": "Paloff Press"
+          },
+          "lower": {
+            "id": 2,
+            "fam": "lower",
+            "nome": "Goblet Squat"
+          },
+          "buffer": {
+            "id": 17,
+            "fam": "buffer",
+            "nome": "Up & Down"
+          },
+          "cardio": {
+            "id": 40,
+            "fam": "tempo",
+            "nome": "Bike"
+          }
+        },
+        "current": 0,
+        "startDate": "2026-05-12T14:18:01.048Z",
+        "calibration": {
+          "row": false,
+          "core": false,
+          "lower": false,
+          "buffer": false,
+          "cardio": false
+        }
+      },
+      "skip": {
+        "pt": null,
+        "log": [],
+        "swapLog": [],
+        "startDate": null
+      },
+      "type": "cardio",
+      "notes": {
+        "row": "seduta 30kg",
+        "core": "acqua",
+        "lower": "Charlot 16kg",
+        "buffer": "step alto",
+        "cardio": "tutta bassa R:3\n",
+        "_warmup": "Cat cow\nSpiderman stretch\nDownward dog",
+        "_cooldown": "Stretching generale"
+      },
+      "levels": {
+        "row": 1,
+        "core": 1,
+        "lower": 1,
+        "buffer": 1,
+        "cardio": 1
+      },
+      "scheda": {
+        "row": {
+          "id": 25,
+          "fam": "row",
+          "nome": "Cable Row"
+        },
+        "core": {
+          "id": 36,
+          "fam": "core",
+          "nome": "Paloff Press"
+        },
+        "lower": {
+          "id": 2,
+          "fam": "lower",
+          "nome": "Goblet Squat"
+        },
+        "buffer": {
+          "id": 17,
+          "fam": "buffer",
+          "nome": "Up & Down"
+        },
+        "cardio": {
+          "id": 40,
+          "fam": "tempo",
+          "nome": "Bike"
+        }
+      },
+      "current": 0,
+      "journal": [
+        {
+          "pt": "Fil",
+          "ts": "2026-05-12T14:18:01.048Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Cardio Tempo"
+        },
+        {
+          "pt": "Fil",
+          "ts": "2026-05-12T14:18:01.048Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Cardio Tempo"
+        },
+        {
+          "pt": "Ale",
+          "ts": "2026-05-18T09:06:30.182Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "Ale",
+          "ts": "2026-05-25T09:03:02.937Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        }
+      ],
+      "redFlags": {
+        "flags": {
+          "diabete": {
+            "note": "",
+            "attivo": true
+          },
+          "osteoporosi": {
+            "note": "",
+            "attivo": true
+          }
+        },
+        "custom": null,
+        "ultimoAggiornamento": 1778677297892
+      },
+      "startDate": "2026-05-12T14:18:01.048Z",
+      "calibration": {
+        "row": false,
+        "core": false,
+        "lower": false,
+        "buffer": false,
+        "cardio": false
+      },
+      "createdDate": "2026-05-12T14:18:01.048Z",
+      "_sessionConsistencyDone": true
+    },
+    "updated_at": "2026-05-29T09:46:45.612"
+  },
+  {
+    "id": "Marina Marazzi",
+    "state": {
+      "pt": "PR",
+      "log": [
+        {
+          "pt": "PR",
+          "date": "2026-04-15",
+          "time": "19:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-22",
+          "time": "19:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": "Goblet Squat",
+          "fam": "lower",
+          "date": "2026-04-22",
+          "from": "Air Squat",
+          "note": "",
+          "slot": "Lower A",
+          "type": "variation"
+        }
+      ],
+      "type": "lower2",
+      "notes": {
+        "row": "35",
+        "lower": "3"
+      },
+      "levels": {
+        "row": 1,
+        "core": 1,
+        "lower": 1,
+        "buffer": 1,
+        "lower2": 1
+      },
+      "scheda": {
+        "row": {
+          "id": 25,
+          "fam": "row",
+          "nome": "Cable Row"
+        },
+        "core": {
+          "id": 57,
+          "fam": "core",
+          "nome": "Deadbug"
+        },
+        "lower": {
+          "id": 2,
+          "fam": "lower",
+          "nome": "Goblet Squat"
+        },
+        "buffer": {
+          "id": 17,
+          "fam": "buffer",
+          "nome": "Up & Down"
+        },
+        "lower2": {
+          "id": 29,
+          "fam": "lower",
+          "nome": "TRX Lunge"
+        }
+      },
+      "current": 0,
+      "startDate": "2026-04-15T17:02:44.448Z",
+      "calibration": {
+        "row": false,
+        "core": false,
+        "lower": false,
+        "buffer": false,
+        "lower2": false
+      }
+    },
+    "updated_at": "2026-04-22T17:39:33.942"
+  },
+  {
+    "id": "Alessandro",
+    "state": {
+      "pt": "PR",
+      "log": [
+        {
+          "pt": "PR",
+          "date": "2026-05-06",
+          "time": "17:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-20",
+          "time": "17:00",
+          "type": "session"
+        },
+        {
+          "pt": "Ste",
+          "date": "2026-05-23",
+          "time": "9:00",
+          "type": "session"
+        }
+      ],
+      "grid": {
+        "pt": null,
+        "log": [],
+        "cells": [],
+        "schede": [
+          {
+            "id": "sch-1778839126535",
+            "log": [],
+            "cells": [],
+            "status": "active",
+            "activeFor": null,
+            "createdAt": "2026-05-15T09:58:46.535Z",
+            "createdBy": null,
+            "isCurrent": true,
+            "archivedAt": null,
+            "assignedTo": null,
+            "description": "",
+            "exhaustedAt": null,
+            "finalizedAt": null,
+            "finalizedBy": null,
+            "sessionCount": 0,
+            "forcedExhausted": false
+          }
+        ],
+        "archive": [],
+        "startDate": null
+      },
+      "open": {
+        "pt": "PR",
+        "log": [
+          {
+            "pt": "PR",
+            "date": "2026-05-06",
+            "time": "17:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-20",
+            "time": "17:00",
+            "type": "session"
+          },
+          {
+            "pt": "Ste",
+            "date": "2026-05-23",
+            "time": "9:00",
+            "type": "session"
+          }
+        ],
+        "type": "cardio",
+        "notes": {
+          "lower": "supporto + kb 12",
+          "cardio": "10",
+          "_warmup": "gastro ++ cat post loop"
+        },
+        "levels": {
+          "row": 1,
+          "core": 1,
+          "lower": 1,
+          "buffer": 1,
+          "cardio": 1
+        },
+        "scheda": {
+          "row": {
+            "id": 84,
+            "fam": "push",
+            "nome": "Deadstop Push Up"
+          },
+          "core": {
+            "id": 60,
+            "fam": "core",
+            "nome": "Rollout"
+          },
+          "lower": {
+            "id": 88,
+            "fam": "lower",
+            "nome": "3 Impulse Squat"
+          },
+          "buffer": {
+            "id": 14,
+            "fam": "buffer",
+            "nome": "Burpees"
+          },
+          "cardio": {
+            "id": 9,
+            "fam": "tempo",
+            "nome": "Run"
+          }
+        },
+        "current": 0,
+        "startDate": "2026-05-06T15:17:14.983Z",
+        "calibration": null
+      },
+      "skip": {
+        "pt": null,
+        "log": [],
+        "swapLog": [],
+        "startDate": null
+      },
+      "type": "cardio",
+      "notes": {
+        "lower": "supporto + kb 12",
+        "cardio": "10",
+        "_warmup": "gastro ++ cat post loop"
+      },
+      "levels": {
+        "row": 1,
+        "core": 1,
+        "lower": 1,
+        "buffer": 1,
+        "cardio": 1
+      },
+      "scheda": {
+        "row": {
+          "id": 84,
+          "fam": "push",
+          "nome": "Deadstop Push Up"
+        },
+        "core": {
+          "id": 60,
+          "fam": "core",
+          "nome": "Rollout"
+        },
+        "lower": {
+          "id": 88,
+          "fam": "lower",
+          "nome": "3 Impulse Squat"
+        },
+        "buffer": {
+          "id": 14,
+          "fam": "buffer",
+          "nome": "Burpees"
+        },
+        "cardio": {
+          "id": 9,
+          "fam": "tempo",
+          "nome": "Run"
+        }
+      },
+      "current": 0,
+      "journal": [
+        {
+          "pt": "PR",
+          "ts": "2026-05-06T15:17:14.983Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Cardio Tempo"
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-06T15:17:14.983Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Cardio Tempo"
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-06T15:17:22.813Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-20T15:04:11.634Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "Ste",
+          "ts": "2026-05-23T07:06:20.931Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        }
+      ],
+      "startDate": "2026-05-06T15:17:14.983Z",
+      "calibration": null,
+      "createdDate": "2026-05-06T15:17:14.983Z",
+      "_sessionConsistencyDone": true
+    },
+    "updated_at": "2026-05-29T08:53:12.435"
+  },
+  {
+    "id": "Bartezzaghi Guido",
+    "state": {
+      "pt": "—",
+      "log": [
+        {
+          "pt": "Fil",
+          "date": "2026-05-06",
+          "time": "9:00",
+          "type": "session"
+        },
+        {
+          "pt": "Fil",
+          "date": "2026-05-13",
+          "time": "10:00",
+          "type": "session"
+        },
+        {
+          "pt": "Fil",
+          "date": "2026-05-27",
+          "time": "10:00",
+          "type": "session"
+        },
+        {
+          "pt": "Fil",
+          "to": "Push Up",
+          "fam": "row2",
+          "date": "2026-05-27",
+          "from": "Knee Push Up",
+          "note": "Spessore nero di taglio + push ups bars",
+          "slot": "Upper B",
+          "type": "variation"
+        }
+      ],
+      "grid": {
+        "pt": null,
+        "log": [],
+        "cells": [],
+        "schede": [
+          {
+            "id": "sch-1780047034168",
+            "log": [],
+            "cells": [
+              {
+                "c": 0,
+                "r": 0,
+                "t": "dsdds"
+              }
+            ],
+            "status": "draft",
+            "activeFor": 10,
+            "createdAt": "2026-05-29T09:30:34.168Z",
+            "createdBy": "Ste",
+            "isCurrent": false,
+            "archivedAt": null,
+            "assignedTo": null,
+            "description": "ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+            "exhaustedAt": null,
+            "finalizedAt": null,
+            "finalizedBy": null,
+            "sessionCount": 0,
+            "forcedExhausted": false
+          }
+        ],
+        "archive": [],
+        "startDate": null
+      },
+      "open": {
+        "pt": "—",
+        "log": [
+          {
+            "pt": "Fil",
+            "date": "2026-05-06",
+            "time": "9:00",
+            "type": "session"
+          },
+          {
+            "pt": "Fil",
+            "date": "2026-05-13",
+            "time": "10:00",
+            "type": "session"
+          },
+          {
+            "pt": "Fil",
+            "date": "2026-05-27",
+            "time": "10:00",
+            "type": "session"
+          },
+          {
+            "pt": "Fil",
+            "to": "Push Up",
+            "fam": "row2",
+            "date": "2026-05-27",
+            "from": "Knee Push Up",
+            "note": "Spessore nero di taglio + push ups bars",
+            "slot": "Upper B",
+            "type": "variation"
+          }
+        ],
+        "type": "row2",
+        "notes": {
+          "row": "2// e box lungo",
+          "core": "Chiusura con attivazione",
+          "row2": "",
+          "lower": "16kg KB o DB",
+          "buffer": "No step + push ups bars",
+          "_warmup": "Cat-cowx10\nSpiderman stetchx10",
+          "_cooldown": "Sfinge\nAll. cat. post."
+        },
+        "levels": {
+          "row": 1,
+          "core": 1,
+          "row2": 1,
+          "lower": 1,
+          "buffer": 1
+        },
+        "scheda": {
+          "row": {
+            "id": 27,
+            "fam": "row",
+            "nome": "TRX Row"
+          },
+          "core": {
+            "id": 21,
+            "fam": "core",
+            "nome": "Plank"
+          },
+          "row2": {
+            "id": 32,
+            "fam": "push",
+            "nome": "Push Up"
+          },
+          "lower": {
+            "id": 2,
+            "fam": "lower",
+            "nome": "Goblet Squat"
+          },
+          "buffer": {
+            "id": 17,
+            "fam": "buffer",
+            "nome": "Up & Down"
+          }
+        },
+        "current": 0,
+        "startDate": "2026-05-05T13:01:18.011Z",
+        "calibration": null
+      },
+      "skip": {
+        "pt": null,
+        "log": [],
+        "swapLog": [],
+        "startDate": null
+      },
+      "type": "row2",
+      "notes": {
+        "row": "2// e box lungo",
+        "core": "Chiusura con attivazione",
+        "row2": "",
+        "lower": "16kg KB o DB",
+        "buffer": "No step + push ups bars",
+        "_warmup": "Cat-cowx10\nSpiderman stetchx10",
+        "_cooldown": "Sfinge\nAll. cat. post."
+      },
+      "levels": {
+        "row": 1,
+        "core": 1,
+        "row2": 1,
+        "lower": 1,
+        "buffer": 1
+      },
+      "scheda": {
+        "row": {
+          "id": 27,
+          "fam": "row",
+          "nome": "TRX Row"
+        },
+        "core": {
+          "id": 21,
+          "fam": "core",
+          "nome": "Plank"
+        },
+        "row2": {
+          "id": 32,
+          "fam": "push",
+          "nome": "Push Up"
+        },
+        "lower": {
+          "id": 2,
+          "fam": "lower",
+          "nome": "Goblet Squat"
+        },
+        "buffer": {
+          "id": 17,
+          "fam": "buffer",
+          "nome": "Up & Down"
+        }
+      },
+      "current": 0,
+      "journal": [
+        {
+          "pt": "—",
+          "ts": "2026-05-05T13:01:18.011Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Secondo Upper"
+        },
+        {
+          "pt": "Fil",
+          "ts": "2026-05-06T07:56:44.152Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "Fil",
+          "ts": "2026-05-13T08:07:54.572Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "Fil",
+          "ts": "2026-05-27T08:06:43.222Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        }
+      ],
+      "startDate": "2026-05-05T13:01:18.011Z",
+      "calibration": null,
+      "createdDate": "2026-05-05T13:01:18.011Z",
+      "_sessionConsistencyDone": true
+    },
+    "updated_at": "2026-05-29T09:46:45.293"
+  },
+  {
+    "id": "Francesca Ariello",
+    "state": {
+      "pt": "PR",
+      "log": [
+        {
+          "pt": "PR",
+          "date": "2026-04-17",
+          "time": "11:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-24",
+          "time": "10:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-08",
+          "time": "10:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": "3 Impulse Squat",
+          "fam": "lower",
+          "date": "2026-05-08",
+          "from": "Air Squat",
+          "note": "",
+          "slot": "Lower",
+          "type": "variation"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-22",
+          "time": "10:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": "Farmer Carry",
+          "fam": "core",
+          "date": "2026-05-22",
+          "from": "Paloff Press",
+          "note": "20",
+          "slot": "Core",
+          "type": "variation"
+        }
+      ],
+      "grid": {
+        "pt": null,
+        "log": [],
+        "cells": [],
+        "schede": [],
+        "archive": [],
+        "startDate": null
+      },
+      "open": {
+        "pt": "PR",
+        "log": [
+          {
+            "pt": "PR",
+            "date": "2026-04-17",
+            "time": "11:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-04-24",
+            "time": "10:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-08",
+            "time": "10:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": "3 Impulse Squat",
+            "fam": "lower",
+            "date": "2026-05-08",
+            "from": "Air Squat",
+            "note": "",
+            "slot": "Lower",
+            "type": "variation"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-22",
+            "time": "10:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": "Farmer Carry",
+            "fam": "core",
+            "date": "2026-05-22",
+            "from": "Paloff Press",
+            "note": "20",
+            "slot": "Core",
+            "type": "variation"
+          }
+        ],
+        "type": "cardio",
+        "notes": {
+          "row": "h2",
+          "core": "12",
+          "lower": "",
+          "cardio": "r3"
+        },
+        "levels": {
+          "row": 1,
+          "core": 1,
+          "lower": 1,
+          "buffer": 1,
+          "cardio": 1
+        },
+        "scheda": {
+          "row": {
+            "id": 30,
+            "fam": "push",
+            "nome": "Rack Push Up"
+          },
+          "core": {
+            "id": 18,
+            "fam": "core",
+            "nome": "Farmer Carry"
+          },
+          "lower": {
+            "id": 88,
+            "fam": "lower",
+            "nome": "3 Impulse Squat"
+          },
+          "buffer": {
+            "id": 17,
+            "fam": "buffer",
+            "nome": "Up & Down"
+          },
+          "cardio": {
+            "id": 53,
+            "fam": "tempo",
+            "nome": "Skill Power Walk"
+          }
+        },
+        "current": 0,
+        "startDate": "2026-04-17T09:04:54.137Z",
+        "calibration": null
+      },
+      "skip": {
+        "pt": "Fil",
+        "log": [],
+        "swapLog": [],
+        "startDate": "2026-04-28T12:37:08.186Z"
+      },
+      "type": "cardio",
+      "notes": {
+        "row": "h2",
+        "core": "12",
+        "lower": "",
+        "cardio": "r3"
+      },
+      "levels": {
+        "row": 1,
+        "core": 1,
+        "lower": 1,
+        "buffer": 1,
+        "cardio": 1
+      },
+      "scheda": {
+        "row": {
+          "id": 30,
+          "fam": "push",
+          "nome": "Rack Push Up"
+        },
+        "core": {
+          "id": 18,
+          "fam": "core",
+          "nome": "Farmer Carry"
+        },
+        "lower": {
+          "id": 88,
+          "fam": "lower",
+          "nome": "3 Impulse Squat"
+        },
+        "buffer": {
+          "id": 17,
+          "fam": "buffer",
+          "nome": "Up & Down"
+        },
+        "cardio": {
+          "id": 53,
+          "fam": "tempo",
+          "nome": "Skill Power Walk"
+        }
+      },
+      "current": 0,
+      "journal": [
+        {
+          "pt": "PR",
+          "ts": "2026-04-17T09:04:54.137Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Cardio Tempo"
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-17T11:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-24T10:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-08T08:03:24.209Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-22T08:14:36.767Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        }
+      ],
+      "startDate": "2026-04-17T09:04:54.137Z",
+      "calibration": null,
+      "createdDate": "2026-04-17T09:04:54.137Z",
+      "_sessionConsistencyDone": true
+    },
+    "updated_at": "2026-05-22T12:04:24.49"
+  },
+  {
+    "id": "Corrado Battaglia",
+    "state": {
+      "pt": "PR",
+      "log": [
+        {
+          "to": 2,
+          "fam": "row",
+          "date": "2026-04-08",
+          "type": "step",
+          "label": "Row / Push → L2"
+        },
+        {
+          "to": 2,
+          "fam": "core",
+          "date": "2026-04-09",
+          "type": "step",
+          "label": "Core → L2"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-15",
+          "time": "19:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": "Knee Plank to Touch",
+          "fam": "core",
+          "date": "2026-04-15",
+          "from": "Rollout",
+          "note": "",
+          "slot": "Core",
+          "type": "variation"
+        },
+        {
+          "pt": "PR",
+          "to": "Thruster",
+          "fam": "buffer",
+          "date": "2026-04-15",
+          "from": "Heavy Ball Shot",
+          "note": "8",
+          "slot": "Buffer A",
+          "type": "variation"
+        },
+        {
+          "pt": "PR",
+          "to": "Burpees",
+          "fam": "buffer",
+          "date": "2026-04-15",
+          "from": "Thruster",
+          "note": "",
+          "slot": "Buffer A",
+          "type": "variation"
+        },
+        {
+          "pt": "PR",
+          "to": "Thruster",
+          "fam": "buffer",
+          "date": "2026-04-15",
+          "from": "Burpees",
+          "note": "",
+          "slot": "Buffer A",
+          "type": "step",
+          "label": "Buffer A → L2",
+          "to_lvl": 2
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-22",
+          "time": "19:00",
+          "type": "session"
+        },
+        {
+          "pt": null,
+          "date": "2026-04-08",
+          "time": null,
+          "type": "session",
+          "_backfilled": true
+        },
+        {
+          "pt": null,
+          "date": "2026-04-09",
+          "time": null,
+          "type": "session",
+          "_backfilled": true
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-29",
+          "time": "18:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-06",
+          "time": "19:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-09",
+          "time": "9:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-13",
+          "time": "18:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": "Slam",
+          "fam": "buffer2",
+          "date": "2026-05-13",
+          "from": "Sled Push",
+          "note": "10",
+          "slot": "Buffer B",
+          "type": "variation"
+        },
+        {
+          "pt": "PR",
+          "to": "Burpees Step-Out",
+          "fam": "buffer2",
+          "date": "2026-05-13",
+          "from": "Slam",
+          "note": "toss 15",
+          "slot": "Buffer B",
+          "type": "variation"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-16",
+          "time": "10:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": 2,
+          "fam": "lower",
+          "date": "2026-05-16",
+          "type": "step",
+          "label": "Lower Str → L2"
+        },
+        {
+          "pt": "Fil",
+          "date": "2026-05-20",
+          "time": "10:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-30",
+          "time": "10:00",
+          "type": "session"
+        }
+      ],
+      "grid": {
+        "pt": null,
+        "log": [],
+        "cells": [],
+        "schede": [],
+        "archive": [
+          {
+            "id": "sch-1778314077572",
+            "createdAt": "2026-05-09T08:07:57.572Z",
+            "archivedAt": "2026-05-11T06:53:57.144Z",
+            "description": "dddddddddddddddddddddddddddddddddddddddddddddddddd",
+            "sessionCount": 0
+          },
+          {
+            "id": "sch-1778314103114",
+            "createdAt": "2026-05-09T08:08:23.114Z",
+            "archivedAt": "2026-05-11T06:53:57.144Z",
+            "description": "",
+            "sessionCount": 0
+          }
+        ],
+        "startDate": null
+      },
+      "open": {
+        "pt": "PR",
+        "log": [
+          {
+            "to": 2,
+            "fam": "row",
+            "date": "2026-04-08",
+            "type": "step",
+            "label": "Row / Push → L2"
+          },
+          {
+            "to": 2,
+            "fam": "core",
+            "date": "2026-04-09",
+            "type": "step",
+            "label": "Core → L2"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-04-15",
+            "time": "19:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": "Knee Plank to Touch",
+            "fam": "core",
+            "date": "2026-04-15",
+            "from": "Rollout",
+            "note": "",
+            "slot": "Core",
+            "type": "variation"
+          },
+          {
+            "pt": "PR",
+            "to": "Thruster",
+            "fam": "buffer",
+            "date": "2026-04-15",
+            "from": "Heavy Ball Shot",
+            "note": "8",
+            "slot": "Buffer A",
+            "type": "variation"
+          },
+          {
+            "pt": "PR",
+            "to": "Burpees",
+            "fam": "buffer",
+            "date": "2026-04-15",
+            "from": "Thruster",
+            "note": "",
+            "slot": "Buffer A",
+            "type": "variation"
+          },
+          {
+            "pt": "PR",
+            "to": "Thruster",
+            "fam": "buffer",
+            "date": "2026-04-15",
+            "from": "Burpees",
+            "note": "",
+            "slot": "Buffer A",
+            "type": "step",
+            "label": "Buffer A → L2",
+            "to_lvl": 2
+          },
+          {
+            "pt": "PR",
+            "date": "2026-04-22",
+            "time": "19:00",
+            "type": "session"
+          },
+          {
+            "pt": null,
+            "date": "2026-04-08",
+            "time": null,
+            "type": "session",
+            "_backfilled": true
+          },
+          {
+            "pt": null,
+            "date": "2026-04-09",
+            "time": null,
+            "type": "session",
+            "_backfilled": true
+          },
+          {
+            "pt": "PR",
+            "date": "2026-04-29",
+            "time": "18:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-06",
+            "time": "19:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-09",
+            "time": "9:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-13",
+            "time": "18:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": "Slam",
+            "fam": "buffer2",
+            "date": "2026-05-13",
+            "from": "Sled Push",
+            "note": "10",
+            "slot": "Buffer B",
+            "type": "variation"
+          },
+          {
+            "pt": "PR",
+            "to": "Burpees Step-Out",
+            "fam": "buffer2",
+            "date": "2026-05-13",
+            "from": "Slam",
+            "note": "toss 15",
+            "slot": "Buffer B",
+            "type": "variation"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-16",
+            "time": "10:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": 2,
+            "fam": "lower",
+            "date": "2026-05-16",
+            "type": "step",
+            "label": "Lower Str → L2"
+          },
+          {
+            "pt": "Fil",
+            "date": "2026-05-20",
+            "time": "10:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-30",
+            "time": "10:00",
+            "type": "session"
+          }
+        ],
+        "type": "buffer2",
+        "notes": {
+          "row": "h2",
+          "core": "",
+          "lower": "sand fake 25",
+          "buffer": "8/medball",
+          "buffer2": ""
+        },
+        "levels": {
+          "row": 2,
+          "core": 2,
+          "lower": 2,
+          "buffer": 2,
+          "buffer2": 1
+        },
+        "scheda": {
+          "row": {
+            "id": 30,
+            "fam": "push",
+            "nome": "Rack Push Up"
+          },
+          "core": {
+            "id": 24,
+            "fam": "core",
+            "nome": "Knee Plank to Touch"
+          },
+          "lower": {
+            "id": 4,
+            "fam": "lower",
+            "nome": "Walked Lunge"
+          },
+          "buffer": {
+            "id": 69,
+            "fam": "buffer",
+            "nome": "Thruster"
+          },
+          "buffer2": {
+            "id": 15,
+            "fam": "buffer",
+            "nome": "Burpees Step-Out"
+          }
+        },
+        "current": 4,
+        "startDate": "2026-04-08T17:09:44.226Z",
+        "calibration": {
+          "row": true,
+          "core": true,
+          "lower": true,
+          "buffer": true,
+          "buffer2": true
+        }
+      },
+      "skip": {
+        "pt": "PR",
+        "log": [],
+        "notes": {
+          "core": "dsdsdsds",
+          "lower": "sdsddsdsdsbnbn3333"
+        },
+        "swapLog": [],
+        "exercises": {
+          "row": {
+            "id": 73,
+            "fam": "row",
+            "nome": "Australian"
+          },
+          "core": {
+            "id": 20,
+            "fam": "core",
+            "nome": "Halo"
+          },
+          "lower": {
+            "id": 63,
+            "fam": "lower",
+            "nome": "Deep Split"
+          },
+          "buffer": {
+            "id": 47,
+            "fam": "buffer",
+            "nome": "Bear Walk"
+          },
+          "comfort": {
+            "id": 57,
+            "fam": "core",
+            "nome": "Deadbug"
+          }
+        },
+        "startDate": "2026-05-20T08:02:26.807Z"
+      },
+      "type": "buffer2",
+      "notes": {
+        "row": "h2",
+        "core": "",
+        "lower": "sand fake 25",
+        "buffer": "8/medball",
+        "buffer2": ""
+      },
+      "levels": {
+        "row": 2,
+        "core": 2,
+        "lower": 2,
+        "buffer": 2,
+        "buffer2": 1
+      },
+      "scheda": {
+        "row": {
+          "id": 30,
+          "fam": "push",
+          "nome": "Rack Push Up"
+        },
+        "core": {
+          "id": 24,
+          "fam": "core",
+          "nome": "Knee Plank to Touch"
+        },
+        "lower": {
+          "id": 4,
+          "fam": "lower",
+          "nome": "Walked Lunge"
+        },
+        "buffer": {
+          "id": 69,
+          "fam": "buffer",
+          "nome": "Thruster"
+        },
+        "buffer2": {
+          "id": 15,
+          "fam": "buffer",
+          "nome": "Burpees Step-Out"
+        }
+      },
+      "current": 4,
+      "journal": [
+        {
+          "pt": null,
+          "ts": "2026-04-08T12:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-08T17:09:44.226Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Secondo Buffer"
+        },
+        {
+          "pt": null,
+          "ts": "2026-04-09T12:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-15T19:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-22T19:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-29T18:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-06T17:01:32.570Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-09T07:02:59.624Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": null,
+          "ts": "2026-05-11T06:53:57.144Z",
+          "kind": "progression_reset",
+          "proto": "grid",
+          "detail": null
+        },
+        {
+          "pt": null,
+          "ts": "2026-05-11T06:54:01.472Z",
+          "kind": "progression_reset",
+          "proto": "grid",
+          "detail": null
+        },
+        {
+          "pt": null,
+          "ts": "2026-05-11T08:18:33.798Z",
+          "kind": "progression_reset",
+          "proto": "grid",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-13T16:02:12.249Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-16T08:01:39.271Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-20T08:02:26.807Z",
+          "kind": "progression_start",
+          "proto": "skip",
+          "detail": null
+        },
+        {
+          "pt": "Fil",
+          "ts": "2026-05-20T08:02:34.621Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-30T08:05:03.749Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        }
+      ],
+      "skipData": {
+        "notes": {
+          "core": "dsdsdsds",
+          "lower": "sdsddsdsdsbnbn3333"
+        },
+        "exercises": {
+          "row": {
+            "id": 73,
+            "fam": "row",
+            "nome": "Australian"
+          },
+          "core": {
+            "id": 20,
+            "fam": "core",
+            "nome": "Halo"
+          },
+          "lower": {
+            "id": 63,
+            "fam": "lower",
+            "nome": "Deep Split"
+          },
+          "buffer": {
+            "id": 47,
+            "fam": "buffer",
+            "nome": "Bear Walk"
+          },
+          "comfort": {
+            "id": 57,
+            "fam": "core",
+            "nome": "Deadbug"
+          }
+        }
+      },
+      "startDate": "2026-04-08T17:09:44.226Z",
+      "calibration": {
+        "row": true,
+        "core": true,
+        "lower": true,
+        "buffer": true,
+        "buffer2": true
+      },
+      "createdDate": "2026-04-08T17:09:44.226Z",
+      "_sessionConsistencyDone": true
+    },
+    "updated_at": "2026-05-30T10:04:35.764"
+  },
+  {
+    "id": "Martina Fagnani",
+    "state": {
+      "pt": "PR",
+      "log": [
+        {
+          "to": 2,
+          "fam": "core",
+          "date": "2026-04-09",
+          "type": "step",
+          "label": "Core → L2"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-13",
+          "time": "15:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": "Sandbag Press",
+          "fam": "row",
+          "date": "2026-04-13",
+          "from": "Rack Push Up",
+          "note": "5",
+          "slot": "Row / Push",
+          "type": "step",
+          "label": "Row / Push → L2",
+          "to_lvl": 2
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-18",
+          "time": "10:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": "Plank to Touch",
+          "fam": "core",
+          "date": "2026-04-18",
+          "from": "Fitball Rollout",
+          "note": "verde",
+          "slot": "Core",
+          "type": "variation"
+        },
+        {
+          "pt": "PR",
+          "to": "Sled Push",
+          "fam": "buffer",
+          "date": "2026-04-20",
+          "from": "Skill Climber",
+          "note": "8",
+          "slot": "Buffer",
+          "type": "step",
+          "label": "Buffer → L2",
+          "to_lvl": 2
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-23",
+          "time": "9:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": "Knee Plank to Touch",
+          "fam": "core",
+          "date": "2026-04-23",
+          "from": "Plank to Touch",
+          "note": "on off straight",
+          "slot": "Core",
+          "type": "variation"
+        },
+        {
+          "pt": null,
+          "date": "2026-04-09",
+          "time": null,
+          "type": "session",
+          "_backfilled": true
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-20",
+          "time": null,
+          "type": "session",
+          "_backfilled": true
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-27",
+          "time": "16:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-30",
+          "time": "10:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-04",
+          "time": "9:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": "Crunch",
+          "fam": "core",
+          "date": "2026-05-04",
+          "from": "Knee Plank to Touch",
+          "note": "",
+          "slot": "Core",
+          "type": "variation"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-07",
+          "time": "10:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": "3 Impulse Squat",
+          "fam": "lower",
+          "date": "2026-05-07",
+          "from": "Goblet Squat",
+          "note": "",
+          "slot": "Lower A",
+          "type": "variation"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-11",
+          "time": "9:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-14",
+          "time": "9:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-18",
+          "time": "9:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-19",
+          "time": "9:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": 2,
+          "fam": "lower",
+          "date": "2026-05-19",
+          "type": "step",
+          "label": "Lower Str → L2"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-25",
+          "time": "9:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-28",
+          "time": "11:00",
+          "type": "session"
+        }
+      ],
+      "grid": {
+        "pt": null,
+        "log": [],
+        "cells": [
+          {
+            "c": 0,
+            "r": 0,
+            "t": "Camminata tappeto"
+          },
+          {
+            "c": 0,
+            "r": 1,
+            "t": "Mobilità cat-post rack"
+          },
+          {
+            "c": 0,
+            "r": 2,
+            "t": "Squat to OH stick"
+          },
+          {
+            "c": 0,
+            "r": 3,
+            "t": "Speed Ladder"
+          },
+          {
+            "c": 0,
+            "r": 4,
+            "t": "STR Prone"
+          },
+          {
+            "c": 0,
+            "r": 5,
+            "t": "Bike"
+          }
+        ],
+        "schede": [
+          {
+            "id": "sch-1779177047482",
+            "log": [],
+            "cells": [
+              {
+                "c": 0,
+                "r": 0,
+                "t": "Camminata tappeto"
+              },
+              {
+                "c": 0,
+                "r": 1,
+                "t": "Mobilità cat-post rack"
+              },
+              {
+                "c": 0,
+                "r": 2,
+                "t": "Squat to OH stick"
+              },
+              {
+                "c": 0,
+                "r": 3,
+                "t": "Speed Ladder"
+              },
+              {
+                "c": 0,
+                "r": 4,
+                "t": "STR Prone"
+              },
+              {
+                "c": 0,
+                "r": 5,
+                "t": "Bike"
+              }
+            ],
+            "status": "active",
+            "activeFor": null,
+            "createdAt": "2026-05-19T07:50:47.482Z",
+            "createdBy": null,
+            "isCurrent": true,
+            "archivedAt": null,
+            "assignedTo": null,
+            "description": "",
+            "exhaustedAt": null,
+            "finalizedAt": null,
+            "finalizedBy": null,
+            "sessionCount": 0,
+            "forcedExhausted": false
+          }
+        ],
+        "archive": [],
+        "startDate": null
+      },
+      "open": {
+        "pt": "PR",
+        "log": [
+          {
+            "to": 2,
+            "fam": "core",
+            "date": "2026-04-09",
+            "type": "step",
+            "label": "Core → L2"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-04-13",
+            "time": "15:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": "Sandbag Press",
+            "fam": "row",
+            "date": "2026-04-13",
+            "from": "Rack Push Up",
+            "note": "5",
+            "slot": "Row / Push",
+            "type": "step",
+            "label": "Row / Push → L2",
+            "to_lvl": 2
+          },
+          {
+            "pt": "PR",
+            "date": "2026-04-18",
+            "time": "10:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": "Plank to Touch",
+            "fam": "core",
+            "date": "2026-04-18",
+            "from": "Fitball Rollout",
+            "note": "verde",
+            "slot": "Core",
+            "type": "variation"
+          },
+          {
+            "pt": "PR",
+            "to": "Sled Push",
+            "fam": "buffer",
+            "date": "2026-04-20",
+            "from": "Skill Climber",
+            "note": "8",
+            "slot": "Buffer",
+            "type": "step",
+            "label": "Buffer → L2",
+            "to_lvl": 2
+          },
+          {
+            "pt": "PR",
+            "date": "2026-04-23",
+            "time": "9:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": "Knee Plank to Touch",
+            "fam": "core",
+            "date": "2026-04-23",
+            "from": "Plank to Touch",
+            "note": "on off straight",
+            "slot": "Core",
+            "type": "variation"
+          },
+          {
+            "pt": null,
+            "date": "2026-04-09",
+            "time": null,
+            "type": "session",
+            "_backfilled": true
+          },
+          {
+            "pt": "PR",
+            "date": "2026-04-20",
+            "time": null,
+            "type": "session",
+            "_backfilled": true
+          },
+          {
+            "pt": "PR",
+            "date": "2026-04-27",
+            "time": "16:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-04-30",
+            "time": "10:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-04",
+            "time": "9:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": "Crunch",
+            "fam": "core",
+            "date": "2026-05-04",
+            "from": "Knee Plank to Touch",
+            "note": "",
+            "slot": "Core",
+            "type": "variation"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-07",
+            "time": "10:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": "3 Impulse Squat",
+            "fam": "lower",
+            "date": "2026-05-07",
+            "from": "Goblet Squat",
+            "note": "",
+            "slot": "Lower A",
+            "type": "variation"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-11",
+            "time": "9:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-14",
+            "time": "9:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-18",
+            "time": "9:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-19",
+            "time": "9:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": 2,
+            "fam": "lower",
+            "date": "2026-05-19",
+            "type": "step",
+            "label": "Lower Str → L2"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-25",
+            "time": "9:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-28",
+            "time": "11:00",
+            "type": "session"
+          }
+        ],
+        "type": "lower2",
+        "notes": {
+          "row": "bil sag A",
+          "core": "",
+          "lower": "asse legno",
+          "buffer": "skierg",
+          "lower2": "GG"
+        },
+        "levels": {
+          "row": 2,
+          "core": 2,
+          "lower": 2,
+          "buffer": 2,
+          "lower2": 1
+        },
+        "scheda": {
+          "row": {
+            "id": 43,
+            "fam": "push",
+            "nome": "Sandbag Press"
+          },
+          "core": {
+            "id": 68,
+            "fam": "core",
+            "nome": "Crunch"
+          },
+          "lower": {
+            "id": 88,
+            "fam": "lower",
+            "nome": "3 Impulse Squat"
+          },
+          "buffer": {
+            "id": 7,
+            "fam": "buffer",
+            "nome": "Sled Push"
+          },
+          "lower2": {
+            "id": 51,
+            "fam": "lower",
+            "nome": "Hip Thrust"
+          }
+        },
+        "current": 4,
+        "startDate": "2026-04-07T07:03:50.479Z",
+        "calibration": {
+          "row": true,
+          "core": true,
+          "lower": true,
+          "buffer": true,
+          "lower2": true
+        }
+      },
+      "skip": {
+        "pt": null,
+        "log": [],
+        "swapLog": [],
+        "startDate": null
+      },
+      "type": "lower2",
+      "notes": {
+        "row": "bil sag A",
+        "core": "",
+        "lower": "asse legno",
+        "buffer": "skierg",
+        "lower2": "GG"
+      },
+      "levels": {
+        "row": 2,
+        "core": 2,
+        "lower": 2,
+        "buffer": 2,
+        "lower2": 1
+      },
+      "scheda": {
+        "row": {
+          "id": 43,
+          "fam": "push",
+          "nome": "Sandbag Press"
+        },
+        "core": {
+          "id": 68,
+          "fam": "core",
+          "nome": "Crunch"
+        },
+        "lower": {
+          "id": 88,
+          "fam": "lower",
+          "nome": "3 Impulse Squat"
+        },
+        "buffer": {
+          "id": 7,
+          "fam": "buffer",
+          "nome": "Sled Push"
+        },
+        "lower2": {
+          "id": 51,
+          "fam": "lower",
+          "nome": "Hip Thrust"
+        }
+      },
+      "current": 4,
+      "journal": [
+        {
+          "pt": "PR",
+          "ts": "2026-04-07T07:03:50.479Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Secondo Lower"
+        },
+        {
+          "pt": null,
+          "ts": "2026-04-09T12:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-13T15:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-18T10:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-20T12:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-23T09:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-27T16:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-30T10:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-04T09:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-07T08:59:44.139Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-11T07:11:42.479Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-14T07:08:23.762Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-18T07:12:41.387Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-19T07:06:55.496Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-25T07:05:40.660Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-28T09:10:30.556Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        }
+      ],
+      "startDate": "2026-04-07T07:03:50.479Z",
+      "calibration": {
+        "row": true,
+        "core": true,
+        "lower": true,
+        "buffer": true,
+        "lower2": true
+      },
+      "createdDate": "2026-04-07T07:03:50.479Z",
+      "_sessionConsistencyDone": true
+    },
+    "updated_at": "2026-05-30T10:04:35.764"
+  },
+  {
+    "id": "Alessandra Mento",
+    "state": {
+      "pt": "Fil",
+      "log": [
+        {
+          "pt": "Fil",
+          "date": "2026-04-23",
+          "time": "20:00",
+          "type": "session"
+        }
+      ],
+      "grid": {
+        "pt": null,
+        "log": [],
+        "cells": [],
+        "schede": [
+          {
+            "id": "sch-1779977080592",
+            "log": [],
+            "cells": [],
+            "status": "draft",
+            "activeFor": 10,
+            "createdAt": "2026-05-28T14:04:40.592Z",
+            "createdBy": "Flower",
+            "isCurrent": false,
+            "archivedAt": null,
+            "assignedTo": null,
+            "description": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+            "exhaustedAt": null,
+            "finalizedAt": null,
+            "finalizedBy": null,
+            "sessionCount": 0,
+            "forcedExhausted": false
+          }
+        ],
+        "archive": [],
+        "startDate": null
+      },
+      "open": {
+        "pt": "Fil",
+        "log": [
+          {
+            "pt": "Fil",
+            "date": "2026-04-23",
+            "time": "20:00",
+            "type": "session"
+          }
+        ],
+        "type": "lower2",
+        "notes": {
+          "lower": ""
+        },
+        "levels": {
+          "row": 1,
+          "core": 1,
+          "lower": 1,
+          "buffer": 1,
+          "lower2": 1
+        },
+        "scheda": {
+          "row": {
+            "id": 25,
+            "fam": "row",
+            "nome": "Cable Row"
+          },
+          "core": {
+            "id": 78,
+            "fam": "core",
+            "nome": "Russian Twist"
+          },
+          "lower": {
+            "id": 1,
+            "fam": "lower",
+            "nome": "Air Squat"
+          },
+          "buffer": {
+            "id": 75,
+            "fam": "buffer",
+            "nome": "Easy Up & Down"
+          },
+          "lower2": {
+            "id": 29,
+            "fam": "lower",
+            "nome": "TRX Lunge"
+          }
+        },
+        "current": 0,
+        "startDate": "2026-04-18T08:07:01.221Z",
+        "calibration": {
+          "row": false,
+          "core": false,
+          "lower": false,
+          "buffer": false,
+          "lower2": false
+        }
+      },
+      "skip": {
+        "pt": null,
+        "log": [],
+        "swapLog": [],
+        "startDate": null
+      },
+      "type": "lower2",
+      "notes": {
+        "lower": ""
+      },
+      "levels": {
+        "row": 1,
+        "core": 1,
+        "lower": 1,
+        "buffer": 1,
+        "lower2": 1
+      },
+      "scheda": {
+        "row": {
+          "id": 25,
+          "fam": "row",
+          "nome": "Cable Row"
+        },
+        "core": {
+          "id": 78,
+          "fam": "core",
+          "nome": "Russian Twist"
+        },
+        "lower": {
+          "id": 1,
+          "fam": "lower",
+          "nome": "Air Squat"
+        },
+        "buffer": {
+          "id": 75,
+          "fam": "buffer",
+          "nome": "Easy Up & Down"
+        },
+        "lower2": {
+          "id": 29,
+          "fam": "lower",
+          "nome": "TRX Lunge"
+        }
+      },
+      "current": 0,
+      "journal": [
+        {
+          "pt": "Fil",
+          "ts": "2026-04-18T08:07:01.221Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Secondo Lower"
+        },
+        {
+          "pt": "Fil",
+          "ts": "2026-04-23T20:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        }
+      ],
+      "startDate": "2026-04-18T08:07:01.221Z",
+      "calibration": {
+        "row": false,
+        "core": false,
+        "lower": false,
+        "buffer": false,
+        "lower2": false
+      },
+      "createdDate": "2026-04-18T08:07:01.221Z",
+      "_sessionConsistencyDone": true
+    },
+    "updated_at": "2026-05-29T08:53:12.656"
+  },
+  {
+    "id": "dddd",
+    "state": {
+      "grid": {
+        "pt": null,
+        "log": [],
+        "cells": [
+          {
+            "c": 0,
+            "r": 0,
+            "t": "dsdsd"
+          },
+          {
+            "c": 0,
+            "r": 1,
+            "t": "dddddddd"
+          }
+        ],
+        "schede": [
+          {
+            "id": "sch-1778577339148",
+            "log": [],
+            "cells": [
+              {
+                "c": 3,
+                "r": 4,
+                "t": "sdsdsds"
+              }
+            ],
+            "status": "active",
+            "activeFor": 10,
+            "createdAt": "2026-05-12T09:15:39.148Z",
+            "createdBy": null,
+            "isCurrent": false,
+            "archivedAt": null,
+            "assignedTo": "Ile",
+            "description": "sddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+            "exhaustedAt": "2026-05-12T09:15:50.786Z",
+            "finalizedAt": null,
+            "finalizedBy": null,
+            "sessionCount": 0,
+            "forcedExhausted": true
+          },
+          {
+            "id": "sch-1778578285942",
+            "log": [],
+            "cells": [
+              {
+                "c": 0,
+                "r": 0,
+                "t": "dsdsd"
+              },
+              {
+                "c": 0,
+                "r": 1,
+                "t": "dddddddd"
+              }
+            ],
+            "status": "active",
+            "activeFor": 10,
+            "createdAt": "2026-05-12T09:31:25.942Z",
+            "createdBy": "Ile",
+            "isCurrent": true,
+            "archivedAt": null,
+            "assignedTo": null,
+            "description": "ffdffdfdfdfdfdfdfdfdfdhfbhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
+            "exhaustedAt": null,
+            "finalizedAt": "2026-05-12T09:38:36.627Z",
+            "finalizedBy": "Ile",
+            "sessionCount": 0,
+            "forcedExhausted": false
+          }
+        ],
+        "archive": [],
+        "startDate": null
+      },
+      "open": {},
+      "skip": {
+        "pt": null,
+        "log": [],
+        "swapLog": [],
+        "startDate": null
+      },
+      "journal": [],
+      "createdDate": "2026-05-12T09:15:36.020Z",
+      "_sessionConsistencyDone": true
+    },
+    "updated_at": "2026-05-29T09:52:06.821"
+  },
+  {
+    "id": "Erica Barbieri",
+    "state": {
+      "pt": "—",
+      "log": [
+        {
+          "pt": "PR",
+          "date": "2026-05-05",
+          "time": "14:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-08",
+          "time": "17:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-12",
+          "time": "12:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-15",
+          "time": "16:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": 2,
+          "fam": "row",
+          "date": "2026-05-15",
+          "type": "step",
+          "label": "Upper → L2"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-19",
+          "time": "9:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-22",
+          "time": "14:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-26",
+          "time": "12:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": 2,
+          "fam": "core",
+          "date": "2026-05-26",
+          "type": "step",
+          "label": "Core → L2"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-29",
+          "time": "17:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": 2,
+          "fam": "buffer",
+          "date": "2026-05-29",
+          "type": "step",
+          "label": "Buffer → L2"
+        }
+      ],
+      "grid": {
+        "pt": null,
+        "log": [],
+        "cells": [
+          {
+            "c": 0,
+            "r": 0,
+            "t": "Camminata tappeto"
+          },
+          {
+            "c": 0,
+            "r": 1,
+            "t": "Mobilità cat-post rack"
+          },
+          {
+            "c": 0,
+            "r": 2,
+            "t": "Squat to OH stick"
+          },
+          {
+            "c": 0,
+            "r": 3,
+            "t": "Speed Ladder"
+          },
+          {
+            "c": 0,
+            "r": 4,
+            "t": "STR Prone"
+          },
+          {
+            "c": 0,
+            "r": 5,
+            "t": "Bike"
+          }
+        ],
+        "schede": [
+          {
+            "id": "sch-1778248362440",
+            "log": [],
+            "cells": [
+              {
+                "c": 0,
+                "r": 0,
+                "t": "Camminata tappeto"
+              },
+              {
+                "c": 0,
+                "r": 1,
+                "t": "Mobilità cat-post rack"
+              },
+              {
+                "c": 0,
+                "r": 2,
+                "t": "Squat to OH stick"
+              },
+              {
+                "c": 0,
+                "r": 3,
+                "t": "Speed Ladder"
+              },
+              {
+                "c": 0,
+                "r": 4,
+                "t": "STR Prone"
+              },
+              {
+                "c": 0,
+                "r": 5,
+                "t": "Bike"
+              }
+            ],
+            "status": "active",
+            "activeFor": null,
+            "createdAt": "2026-05-08T13:52:42.440Z",
+            "createdBy": null,
+            "isCurrent": true,
+            "archivedAt": null,
+            "assignedTo": null,
+            "description": "dddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+            "exhaustedAt": null,
+            "finalizedAt": "2026-05-08T13:52:42.440Z",
+            "finalizedBy": null,
+            "sessionCount": 0,
+            "forcedExhausted": false
+          }
+        ],
+        "archive": [],
+        "startDate": null
+      },
+      "open": {
+        "pt": "—",
+        "log": [
+          {
+            "pt": "PR",
+            "date": "2026-05-05",
+            "time": "14:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-08",
+            "time": "17:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-12",
+            "time": "12:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-15",
+            "time": "16:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": 2,
+            "fam": "row",
+            "date": "2026-05-15",
+            "type": "step",
+            "label": "Upper → L2"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-19",
+            "time": "9:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-22",
+            "time": "14:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-26",
+            "time": "12:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": 2,
+            "fam": "core",
+            "date": "2026-05-26",
+            "type": "step",
+            "label": "Core → L2"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-29",
+            "time": "17:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": 2,
+            "fam": "buffer",
+            "date": "2026-05-29",
+            "type": "step",
+            "label": "Buffer → L2"
+          }
+        ],
+        "type": "cardio",
+        "notes": {
+          "row": "h5",
+          "core": "20, distante con resp inversa",
+          "buffer": "h10",
+          "cardio": "h2 r3 75 rpm"
+        },
+        "levels": {
+          "row": 2,
+          "core": 2,
+          "lower": 1,
+          "buffer": 2,
+          "cardio": 1
+        },
+        "scheda": {
+          "row": {
+            "id": 30,
+            "fam": "push",
+            "nome": "Rack Push Up"
+          },
+          "core": {
+            "id": 36,
+            "fam": "core",
+            "nome": "Paloff Press"
+          },
+          "lower": {
+            "id": 88,
+            "fam": "lower",
+            "nome": "3 Impulse Squat"
+          },
+          "buffer": {
+            "id": 87,
+            "fam": "buffer",
+            "nome": "Frogger"
+          },
+          "cardio": {
+            "id": 40,
+            "fam": "tempo",
+            "nome": "Bike"
+          }
+        },
+        "current": 3,
+        "startDate": "2026-05-05T11:22:50.556Z",
+        "calibration": null
+      },
+      "skip": {
+        "pt": null,
+        "log": [],
+        "swapLog": [],
+        "startDate": null
+      },
+      "type": "cardio",
+      "notes": {
+        "row": "h5",
+        "core": "20, distante con resp inversa",
+        "buffer": "h10",
+        "cardio": "h2 r3 75 rpm"
+      },
+      "levels": {
+        "row": 2,
+        "core": 2,
+        "lower": 1,
+        "buffer": 2,
+        "cardio": 1
+      },
+      "scheda": {
+        "row": {
+          "id": 30,
+          "fam": "push",
+          "nome": "Rack Push Up"
+        },
+        "core": {
+          "id": 36,
+          "fam": "core",
+          "nome": "Paloff Press"
+        },
+        "lower": {
+          "id": 88,
+          "fam": "lower",
+          "nome": "3 Impulse Squat"
+        },
+        "buffer": {
+          "id": 87,
+          "fam": "buffer",
+          "nome": "Frogger"
+        },
+        "cardio": {
+          "id": 40,
+          "fam": "tempo",
+          "nome": "Bike"
+        }
+      },
+      "current": 3,
+      "journal": [
+        {
+          "pt": "—",
+          "ts": "2026-05-05T11:22:50.556Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Cardio Tempo"
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-05T14:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-08T15:06:04.106Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-12T10:07:53.596Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-15T14:58:45.649Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-19T07:51:03.237Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-22T12:04:36.318Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-26T10:14:47.778Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-29T15:04:35.407Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        }
+      ],
+      "startDate": "2026-05-05T11:22:50.556Z",
+      "calibration": null,
+      "createdDate": "2026-05-05T11:22:50.556Z",
+      "_sessionConsistencyDone": true
+    },
+    "updated_at": "2026-05-30T10:04:35.763"
+  },
+  {
+    "id": "Orlando Minardi",
+    "state": {
+      "grid": {
+        "pt": "PR",
+        "log": [
+          {
+            "pt": "PR",
+            "date": "2026-05-18",
+            "time": "12:00"
+          }
+        ],
+        "cells": [
+          {
+            "c": 0,
+            "r": 0,
+            "t": "Camminata tappeto"
+          },
+          {
+            "c": 0,
+            "r": 1,
+            "t": "Mobilità cat-post rack"
+          },
+          {
+            "c": 0,
+            "r": 2,
+            "t": "Squat to OH stick"
+          },
+          {
+            "c": 0,
+            "r": 3,
+            "t": "Speed Ladder"
+          },
+          {
+            "c": 0,
+            "r": 4,
+            "t": "STR Prone"
+          },
+          {
+            "c": 0,
+            "r": 5,
+            "t": "Bike"
+          }
+        ],
+        "schede": [
+          {
+            "id": "sch-1778751591788",
+            "log": [
+              {
+                "pt": "PR",
+                "date": "2026-05-18",
+                "time": "12:00"
+              }
+            ],
+            "cells": [
+              {
+                "c": 0,
+                "r": 0,
+                "t": "Camminata tappeto"
+              },
+              {
+                "c": 0,
+                "r": 1,
+                "t": "Mobilità cat-post rack"
+              },
+              {
+                "c": 0,
+                "r": 2,
+                "t": "Squat to OH stick"
+              },
+              {
+                "c": 0,
+                "r": 3,
+                "t": "Speed Ladder"
+              },
+              {
+                "c": 0,
+                "r": 4,
+                "t": "STR Prone"
+              },
+              {
+                "c": 0,
+                "r": 5,
+                "t": "Bike"
+              }
+            ],
+            "status": "active",
+            "activeFor": 10,
+            "createdAt": "2026-05-14T09:39:51.787Z",
+            "createdBy": "PR",
+            "isCurrent": true,
+            "archivedAt": null,
+            "assignedTo": null,
+            "description": "operazione stenosi nov '25, infiammazione cronica metatarsi",
+            "exhaustedAt": null,
+            "finalizedAt": "2026-05-14T09:46:27.624Z",
+            "finalizedBy": "PR",
+            "sessionCount": 1,
+            "forcedExhausted": false
+          }
+        ],
+        "archive": [
+          {
+            "id": "sch-1778572036392",
+            "createdAt": "2026-05-12T07:47:16.392Z",
+            "createdBy": null,
+            "archivedAt": "2026-05-13T14:53:53.022Z",
+            "description": "----------------------\nStenosi lombare, discopatia",
+            "sessionCount": 1
+          }
+        ],
+        "startDate": "2026-05-18"
+      },
+      "open": {},
+      "skip": {
+        "pt": null,
+        "log": [],
+        "swapLog": [],
+        "startDate": null
+      },
+      "journal": [
+        {
+          "pt": "PR",
+          "ts": "2026-05-12T08:47:17.124Z",
+          "kind": "progression_start",
+          "proto": "grid",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-12T08:47:17.124Z",
+          "kind": "session",
+          "proto": "grid",
+          "detail": null
+        },
+        {
+          "pt": null,
+          "ts": "2026-05-13T14:53:53.022Z",
+          "kind": "progression_reset",
+          "proto": "grid",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-18T10:09:40.768Z",
+          "kind": "progression_start",
+          "proto": "grid",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-18T10:09:40.768Z",
+          "kind": "session",
+          "proto": "grid",
+          "detail": null
+        }
+      ],
+      "redFlags": {
+        "flags": {},
+        "custom": null,
+        "ultimoAggiornamento": 1778684102724
+      },
+      "createdDate": "2026-05-12T07:46:32.757Z",
+      "_sessionConsistencyDone": true
+    },
+    "updated_at": "2026-05-25T06:46:42.625"
+  },
+  {
+    "id": "Roberta Prina",
+    "state": {
+      "pt": "PR",
+      "log": [
+        {
+          "to": 2,
+          "fam": "row",
+          "date": "2026-04-07",
+          "type": "step",
+          "label": "Row / Push → L2"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-10",
+          "time": "18:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-14",
+          "time": "18:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-17",
+          "time": "18:00",
+          "type": "session"
+        },
+        {
+          "pt": null,
+          "date": "2026-04-07",
+          "time": null,
+          "type": "session",
+          "_backfilled": true
+        },
+        {
+          "pt": "PR",
+          "date": "2026-04-24",
+          "time": "18:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-05",
+          "time": "18:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": "Sit Up",
+          "fam": "core",
+          "date": "2026-05-05",
+          "from": "Farmer Carry",
+          "note": "12",
+          "slot": "Core",
+          "type": "step",
+          "label": "Core → L2",
+          "to_lvl": 2
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-08",
+          "time": "18:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": "Climber",
+          "fam": "buffer",
+          "date": "2026-05-08",
+          "from": "Prone SRT",
+          "note": "",
+          "slot": "Buffer A",
+          "type": "step",
+          "label": "Buffer A → L2",
+          "to_lvl": 2
+        },
+        {
+          "pt": "PR",
+          "to": "Inchworm",
+          "fam": "buffer",
+          "date": "2026-05-08",
+          "from": "Climber",
+          "note": "gomiti panca",
+          "slot": "Buffer A",
+          "type": "variation"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-12",
+          "time": "18:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-19",
+          "time": "18:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": "3 Impulse Squat",
+          "fam": "lower",
+          "date": "2026-05-19",
+          "from": "Air Squat",
+          "note": "",
+          "slot": "Lower",
+          "type": "step",
+          "label": "Lower → L2",
+          "to_lvl": 2
+        },
+        {
+          "pt": "Ale",
+          "date": "2026-05-25",
+          "time": "18:00",
+          "type": "session"
+        },
+        {
+          "pt": "Ale",
+          "date": "2026-06-01",
+          "time": "18:00",
+          "type": "session"
+        }
+      ],
+      "grid": {
+        "pt": null,
+        "log": [],
+        "cells": [],
+        "schede": [],
+        "archive": [],
+        "startDate": null
+      },
+      "open": {
+        "pt": "PR",
+        "log": [
+          {
+            "to": 2,
+            "fam": "row",
+            "date": "2026-04-07",
+            "type": "step",
+            "label": "Row / Push → L2"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-04-10",
+            "time": "18:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-04-14",
+            "time": "18:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-04-17",
+            "time": "18:00",
+            "type": "session"
+          },
+          {
+            "pt": null,
+            "date": "2026-04-07",
+            "time": null,
+            "type": "session",
+            "_backfilled": true
+          },
+          {
+            "pt": "PR",
+            "date": "2026-04-24",
+            "time": "18:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-05",
+            "time": "18:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": "Sit Up",
+            "fam": "core",
+            "date": "2026-05-05",
+            "from": "Farmer Carry",
+            "note": "12",
+            "slot": "Core",
+            "type": "step",
+            "label": "Core → L2",
+            "to_lvl": 2
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-08",
+            "time": "18:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": "Climber",
+            "fam": "buffer",
+            "date": "2026-05-08",
+            "from": "Prone SRT",
+            "note": "",
+            "slot": "Buffer A",
+            "type": "step",
+            "label": "Buffer A → L2",
+            "to_lvl": 2
+          },
+          {
+            "pt": "PR",
+            "to": "Inchworm",
+            "fam": "buffer",
+            "date": "2026-05-08",
+            "from": "Climber",
+            "note": "gomiti panca",
+            "slot": "Buffer A",
+            "type": "variation"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-12",
+            "time": "18:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-19",
+            "time": "18:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": "3 Impulse Squat",
+            "fam": "lower",
+            "date": "2026-05-19",
+            "from": "Air Squat",
+            "note": "",
+            "slot": "Lower",
+            "type": "step",
+            "label": "Lower → L2",
+            "to_lvl": 2
+          },
+          {
+            "pt": "Ale",
+            "date": "2026-05-25",
+            "time": "18:00",
+            "type": "session"
+          },
+          {
+            "pt": "Ale",
+            "date": "2026-06-01",
+            "time": "18:00",
+            "type": "session"
+          }
+        ],
+        "type": "buffer2",
+        "notes": {
+          "core": "",
+          "lower": "",
+          "buffer": "",
+          "buffer2": "r8"
+        },
+        "levels": {
+          "row": 2,
+          "core": 2,
+          "lower": 2,
+          "buffer": 2,
+          "buffer2": 1
+        },
+        "scheda": {
+          "row": {
+            "id": 31,
+            "fam": "push",
+            "nome": "Knee Push Up"
+          },
+          "core": {
+            "id": 70,
+            "fam": "core",
+            "nome": "Sit Up"
+          },
+          "lower": {
+            "id": 88,
+            "fam": "lower",
+            "nome": "3 Impulse Squat"
+          },
+          "buffer": {
+            "id": 48,
+            "fam": "buffer",
+            "nome": "Inchworm"
+          },
+          "buffer2": {
+            "id": 7,
+            "fam": "buffer",
+            "nome": "Sled Push"
+          }
+        },
+        "current": 4,
+        "startDate": "2026-04-07T16:14:59.511Z",
+        "calibration": {
+          "row": true,
+          "core": true,
+          "lower": true,
+          "buffer": true,
+          "buffer2": true
+        }
+      },
+      "skip": {
+        "pt": null,
+        "log": [],
+        "swapLog": [],
+        "startDate": null
+      },
+      "type": "buffer2",
+      "notes": {
+        "core": "",
+        "lower": "",
+        "buffer": "",
+        "buffer2": "r8"
+      },
+      "levels": {
+        "row": 2,
+        "core": 2,
+        "lower": 2,
+        "buffer": 2,
+        "buffer2": 1
+      },
+      "scheda": {
+        "row": {
+          "id": 31,
+          "fam": "push",
+          "nome": "Knee Push Up"
+        },
+        "core": {
+          "id": 70,
+          "fam": "core",
+          "nome": "Sit Up"
+        },
+        "lower": {
+          "id": 88,
+          "fam": "lower",
+          "nome": "3 Impulse Squat"
+        },
+        "buffer": {
+          "id": 48,
+          "fam": "buffer",
+          "nome": "Inchworm"
+        },
+        "buffer2": {
+          "id": 7,
+          "fam": "buffer",
+          "nome": "Sled Push"
+        }
+      },
+      "current": 4,
+      "journal": [
+        {
+          "pt": null,
+          "ts": "2026-04-07T12:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-07T16:14:59.511Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Secondo Buffer"
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-10T18:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-14T18:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-17T18:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-04-24T18:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-05T16:10:54.020Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-08T16:17:58.646Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-12T16:13:06.785Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-19T16:12:14.962Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "Ale",
+          "ts": "2026-05-25T16:08:20.383Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "Ale",
+          "ts": "2026-06-01T16:12:41.553Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        }
+      ],
+      "startDate": "2026-04-07T16:14:59.511Z",
+      "calibration": {
+        "row": true,
+        "core": true,
+        "lower": true,
+        "buffer": true,
+        "buffer2": true
+      },
+      "createdDate": "2026-04-07T16:14:59.511Z",
+      "_sessionConsistencyDone": true
+    },
+    "updated_at": "2026-06-01T16:12:41.558"
+  },
+  {
+    "id": "Francesca Monsellato",
+    "state": {
+      "pt": null,
+      "log": [],
+      "grid": {
+        "pt": null,
+        "log": [],
+        "cells": [],
+        "schede": [],
+        "archive": [
+          {
+            "id": "sch-1778316535147",
+            "createdAt": "2026-05-09T08:48:55.147Z",
+            "archivedAt": "2026-05-09T09:01:28.223Z",
+            "description": "sddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+            "sessionCount": 0
+          },
+          {
+            "id": "sch-1778317344775",
+            "createdAt": "2026-05-09T09:02:24.775Z",
+            "archivedAt": "2026-05-09T09:02:52.831Z",
+            "description": "",
+            "sessionCount": 0
+          },
+          {
+            "id": "sch-1778489398608",
+            "createdAt": "2026-05-11T08:49:58.607Z",
+            "createdBy": null,
+            "archivedAt": "2026-05-13T14:53:23.055Z",
+            "description": "provaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "sessionCount": 1
+          }
+        ],
+        "startDate": null
+      },
+      "open": {
+        "pt": null,
+        "log": [],
+        "type": null,
+        "notes": null,
+        "levels": null,
+        "scheda": null,
+        "current": null,
+        "startDate": null,
+        "calibration": null
+      },
+      "skip": {
+        "pt": null,
+        "log": [],
+        "swapLog": [],
+        "startDate": null
+      },
+      "type": null,
+      "notes": null,
+      "levels": null,
+      "scheda": null,
+      "current": null,
+      "journal": [
+        {
+          "pt": "PR",
+          "ts": "2026-04-10T09:30:28.234Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Secondo Lower"
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-07T14:36:38.671Z",
+          "kind": "progression_start",
+          "proto": "grid",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-07T14:36:38.672Z",
+          "kind": "session",
+          "proto": "grid",
+          "detail": null
+        },
+        {
+          "pt": null,
+          "ts": "2026-05-09T08:42:30.542Z",
+          "kind": "progression_reset",
+          "proto": "grid",
+          "detail": null
+        },
+        {
+          "pt": null,
+          "ts": "2026-05-09T08:45:08.399Z",
+          "kind": "progression_reset",
+          "proto": "grid",
+          "detail": null
+        },
+        {
+          "pt": null,
+          "ts": "2026-05-09T09:01:28.224Z",
+          "kind": "progression_reset",
+          "proto": "grid",
+          "detail": null
+        },
+        {
+          "pt": null,
+          "ts": "2026-05-09T09:01:30.253Z",
+          "kind": "progression_reset",
+          "proto": "grid",
+          "detail": null
+        },
+        {
+          "pt": null,
+          "ts": "2026-05-09T09:02:52.831Z",
+          "kind": "progression_reset",
+          "proto": "grid",
+          "detail": null
+        },
+        {
+          "pt": null,
+          "ts": "2026-05-09T09:02:55.329Z",
+          "kind": "progression_reset",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-11T08:50:00.573Z",
+          "kind": "progression_start",
+          "proto": "grid",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-11T08:50:00.573Z",
+          "kind": "session",
+          "proto": "grid",
+          "detail": null
+        },
+        {
+          "pt": null,
+          "ts": "2026-05-13T14:53:23.055Z",
+          "kind": "progression_reset",
+          "proto": "grid",
+          "detail": null
+        }
+      ],
+      "startDate": null,
+      "calibration": null,
+      "createdDate": "2026-04-10T09:30:28.234Z",
+      "_sessionConsistencyDone": true
+    },
+    "updated_at": "2026-05-13T16:54:10.492"
+  },
+  {
+    "id": "Morgana Lovati",
+    "state": {
+      "pt": "—",
+      "log": [
+        {
+          "pt": "PR",
+          "date": "2026-05-04",
+          "time": "18:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-08",
+          "time": "16:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-12",
+          "time": "17:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-15",
+          "time": "16:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-18",
+          "time": "18:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": "Half/Half Push Up",
+          "fam": "row",
+          "date": "2026-05-18",
+          "from": "Knee Push Up",
+          "note": "",
+          "slot": "Upper",
+          "type": "step",
+          "label": "Upper → L2",
+          "to_lvl": 2
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-25",
+          "time": "18:00",
+          "type": "session"
+        },
+        {
+          "pt": "PR",
+          "to": 2,
+          "fam": "core",
+          "date": "2026-05-25",
+          "type": "step",
+          "label": "Core → L2"
+        },
+        {
+          "pt": "PR",
+          "date": "2026-05-29",
+          "time": "16:00",
+          "type": "session"
+        }
+      ],
+      "grid": {
+        "pt": null,
+        "log": [],
+        "cells": [
+          {
+            "c": 0,
+            "r": 0,
+            "t": "Camminata tappeto"
+          },
+          {
+            "c": 0,
+            "r": 1,
+            "t": "Mobilità cat-post rack"
+          },
+          {
+            "c": 0,
+            "r": 2,
+            "t": "Squat to OH stick"
+          },
+          {
+            "c": 0,
+            "r": 3,
+            "t": "Speed Ladder"
+          },
+          {
+            "c": 0,
+            "r": 4,
+            "t": "STR Prone"
+          },
+          {
+            "c": 0,
+            "r": 5,
+            "t": "Bike"
+          }
+        ],
+        "schede": [
+          {
+            "id": "sch-1779174141481",
+            "log": [],
+            "cells": [
+              {
+                "c": 0,
+                "r": 0,
+                "t": "Camminata tappeto"
+              },
+              {
+                "c": 0,
+                "r": 1,
+                "t": "Mobilità cat-post rack"
+              },
+              {
+                "c": 0,
+                "r": 2,
+                "t": "Squat to OH stick"
+              },
+              {
+                "c": 0,
+                "r": 3,
+                "t": "Speed Ladder"
+              },
+              {
+                "c": 0,
+                "r": 4,
+                "t": "STR Prone"
+              },
+              {
+                "c": 0,
+                "r": 5,
+                "t": "Bike"
+              }
+            ],
+            "status": "active",
+            "activeFor": null,
+            "createdAt": "2026-05-19T07:02:21.481Z",
+            "createdBy": null,
+            "isCurrent": true,
+            "archivedAt": null,
+            "assignedTo": null,
+            "description": "",
+            "exhaustedAt": null,
+            "finalizedAt": null,
+            "finalizedBy": null,
+            "sessionCount": 0,
+            "forcedExhausted": false
+          }
+        ],
+        "archive": [],
+        "startDate": null
+      },
+      "open": {
+        "pt": "—",
+        "log": [
+          {
+            "pt": "PR",
+            "date": "2026-05-04",
+            "time": "18:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-08",
+            "time": "16:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-12",
+            "time": "17:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-15",
+            "time": "16:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-18",
+            "time": "18:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": "Half/Half Push Up",
+            "fam": "row",
+            "date": "2026-05-18",
+            "from": "Knee Push Up",
+            "note": "",
+            "slot": "Upper",
+            "type": "step",
+            "label": "Upper → L2",
+            "to_lvl": 2
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-25",
+            "time": "18:00",
+            "type": "session"
+          },
+          {
+            "pt": "PR",
+            "to": 2,
+            "fam": "core",
+            "date": "2026-05-25",
+            "type": "step",
+            "label": "Core → L2"
+          },
+          {
+            "pt": "PR",
+            "date": "2026-05-29",
+            "time": "16:00",
+            "type": "session"
+          }
+        ],
+        "type": "cardio",
+        "notes": {
+          "row": "",
+          "lower": "kb 16",
+          "buffer": "BBJ",
+          "cardio": "vel 8"
+        },
+        "levels": {
+          "row": 2,
+          "core": 2,
+          "lower": 1,
+          "buffer": 1,
+          "cardio": 1
+        },
+        "scheda": {
+          "row": {
+            "id": 83,
+            "fam": "push",
+            "nome": "Half/Half Push Up"
+          },
+          "core": {
+            "id": 23,
+            "fam": "core",
+            "nome": "Plank to Touch"
+          },
+          "lower": {
+            "id": 2,
+            "fam": "lower",
+            "nome": "Goblet Squat"
+          },
+          "buffer": {
+            "id": 14,
+            "fam": "buffer",
+            "nome": "Burpees"
+          },
+          "cardio": {
+            "id": 9,
+            "fam": "tempo",
+            "nome": "Run"
+          }
+        },
+        "current": 2,
+        "startDate": "2026-05-04T16:11:05.276Z",
+        "calibration": null
+      },
+      "skip": {
+        "pt": null,
+        "log": [],
+        "swapLog": [],
+        "startDate": null
+      },
+      "type": "cardio",
+      "notes": {
+        "row": "",
+        "lower": "kb 16",
+        "buffer": "BBJ",
+        "cardio": "vel 8"
+      },
+      "levels": {
+        "row": 2,
+        "core": 2,
+        "lower": 1,
+        "buffer": 1,
+        "cardio": 1
+      },
+      "scheda": {
+        "row": {
+          "id": 83,
+          "fam": "push",
+          "nome": "Half/Half Push Up"
+        },
+        "core": {
+          "id": 23,
+          "fam": "core",
+          "nome": "Plank to Touch"
+        },
+        "lower": {
+          "id": 2,
+          "fam": "lower",
+          "nome": "Goblet Squat"
+        },
+        "buffer": {
+          "id": 14,
+          "fam": "buffer",
+          "nome": "Burpees"
+        },
+        "cardio": {
+          "id": 9,
+          "fam": "tempo",
+          "nome": "Run"
+        }
+      },
+      "current": 2,
+      "journal": [
+        {
+          "pt": "—",
+          "ts": "2026-05-04T16:11:05.276Z",
+          "kind": "progression_start",
+          "proto": "open",
+          "detail": "Cardio Tempo"
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-04T18:00:00.000Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-08T14:05:04.665Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-12T15:09:34.037Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-15T14:02:09.391Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-18T16:04:51.391Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-25T16:10:56.412Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        },
+        {
+          "pt": "PR",
+          "ts": "2026-05-29T14:06:09.869Z",
+          "kind": "session",
+          "proto": "open",
+          "detail": null
+        }
+      ],
+      "startDate": "2026-05-04T16:11:05.276Z",
+      "calibration": null,
+      "createdDate": "2026-05-04T16:11:05.276Z",
+      "_sessionConsistencyDone": true
+    },
+    "updated_at": "2026-05-30T10:04:35.763"
+  }
+]
